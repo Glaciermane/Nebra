@@ -1,1 +1,1 @@
-#Copyright ©️ 2023 Nebra. All rights reserved
+Copyright ©️ 2023 Nebra. All rights reserved
