@@ -37,16 +37,13 @@ a {
 	align-content: center;
 	flex-direction: row;
 	margin: 50px;
-	
+}
 	
 .center-text {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-}
-	
-
 }
 
 .devs-images img{
