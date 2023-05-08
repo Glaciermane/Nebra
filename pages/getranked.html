@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nebra TNA</title>
   <link rel="icon" href="../2E6B2E67-9ABA-48CA-AE5B-F2BDA74CB953.jpg">
-  <link rel="stylesheet" href="../pages/getranked.css">
+  <link rel="stylesheet" href="getranked.css">
   <link rel="stylesheet" href="../index.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -52,35 +52,38 @@
         
      
        <div id="getranked" class="devs-card"></div>
-        <div class="divider" style="width:24%; margin:30px 0;"></div>
-        
-                    <h1>Get Ranked</h1>
+<div class="divider" style="width:24%; margin:30px 0;"></div>
 
-          
-          <div class="divider" style="width:24%; margin:30px 0;"></div>
-          
-          
-          <form class="form" action="#" method="POST">
-            <div class="form-group">
-              <label for="name">Ingame Name:</label>
-              <input type="text" id="name" name="name" required>
-            </div>
-            
-            <div class="form-group">
-              <label for="email">Discord Username:</label>
-              <input type="email" id="email" name="email" required>
-            </div>
-            
-            <div class="form-group">
-              <label for="message">Anything else you want to say?:</label>
-              <textarea id="message" name="message" required></textarea>
-            </div>
-            
-            <button type="submit">Submit</button>
-          </form>
-          
-          <div class="divider" style="width:24%; margin:30px 0;"></div>
-        </div>
+<form class="center-text" action="#">
+  <h2>Formular</h2>
+  <div class="form-group">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+  </div>
+  <div class="form-group">
+    <label for="email">E-Mail:</label>
+    <input type="email" id="email" name="email">
+  </div>
+  <div class="form-group">
+    <label for="message">Nachricht:</label>
+    <textarea id="message" name="message"></textarea>
+  </div>
+  <div class="form-group">
+    <label for="select">Auswahl:</label>
+    <select id="select" name="select">
+      <option value="1">Option 1</option>
+      <option value="2">Option 2</option>
+      <option value="3">Option 3</option>
+      <option value="4">Option 4</option>
+      <option value="5">Option 5</option>
+      <option value="6">Option 6</option>
+      <option value="7">Option 7</option>
+    </select>
+  </div>
+  <button type="submit">submit</button>
+</form>
+  <div class="divider" style="width:24%; margin:30px 0;"></div>
+       </div>
       </div>
     </div>
     
@@ -88,5 +91,3 @@
     <script src="./commands.js"></script>
   </body>
 </html>
-
-         
