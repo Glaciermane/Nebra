@@ -43,4 +43,8 @@ button[type="submit"]:hover {
   background-color: #bf4c47;
 }
 
+h1 {
+  text-align: center; /* Text in der Mitte zentrieren */
+  color: #e26f69; /* Farbe für den Text festlegen */
+}
 /* Weitere CSS-Regeln können hier ergänzt werden, um das Formular anzupassen */
