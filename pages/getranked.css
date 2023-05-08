@@ -4,6 +4,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+  color: white; /* Schriftfarbe auf weiß ändern */
 }
 
 .form-group {
@@ -24,6 +26,7 @@ textarea {
   padding: 10px;
   border: 1px solid #e26f69;
   border-radius: 5px;
+  color: black; /* Schriftfarbe auf schwarz ändern */
 }
 
 button[type="submit"] {
