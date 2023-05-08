@@ -47,4 +47,36 @@ h1 {
   text-align: center; /* Text in der Mitte zentrieren */
   color: #e26f69; /* Farbe für den Text festlegen */
 }
+.custom-select {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.custom-select select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #000;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+}
+
+.select-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.select-icon i {
+  color: #000;
+}
+
 /* Weitere CSS-Regeln können hier ergänzt werden, um das Formular anzupassen */
