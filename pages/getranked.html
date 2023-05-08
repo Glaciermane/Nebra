@@ -1,44 +1,120 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-   <head>
-      <meta charset="utf-8">
-      <title>Nebra TNA</title>
-      <link rel="stylesheet" href="../index.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-      <link rel="icon" href="..2E6B2E67-9ABA-48CA-AE5B-F2BDA74CB953.jpg">
-      <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800,900&display=swap" rel="stylesheet">
-      
-      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap" rel="stylesheet">
-      
-      <link href="https://fonts.googleapis.com/css?family=Lato:300,400,600,700,800,900&display=swap" rel="stylesheet">
-   </head>
-   <body onload="loaderFunction()">
+<html lang="en">
 
-      <div id="loader">
-          <div class="loading">
-          <span></span>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nebra TNA</title>
+  <link rel="icon" href="../2E6B2E67-9ABA-48CA-AE5B-F2BDA74CB953.jpg">
+  <link rel="stylesheet" href="tnal.css">
+  <link rel="stylesheet" href="../index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800,900&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,600,700,800,900&display=swap" rel="stylesheet">
+</head>
+
+<body onload="loaderFunction()">
+                                         
+  <div id="loader">                      <!-- ╔═══════════════════════════════╗ -->
+    <div class="loading">                <!-- ║                               ║ -->
+      <span></span>                      <!-- ║    Stop reading my code :)    ║ -->
+    </div>                               <!-- ║                               ║ -->
+  </div>                                 <!-- ╚═══════════════════════════════╝ -->             
+                                         
+
+  <div id="page">
+    <nav>
+      <div class="logo noselect">
+        <img class="noselect" src="../2E6B2E67-9ABA-48CA-AE5B-F2BDA74CB953.jpg"> Nebra TNA ranking
+      </div>
+
+      <div class="openMenu noselect"><i class="fa fa-bars"></i></div>
+      <ul class="mainMenu noselect">
+        <li><a href="../index.html"><i class="fa fa-home"></i> Home</a></li>
+        <li><a href="../pages/tnal.html"><i class="fa fa-certificate"></i> TNA</a></li>
+        <li><a href="../pages/getranked.html"><i class="fa fa-id-card"></i> Get Ranked</a></li>
+        <li><a class="invite noselect" href="https://discord.gg/VQRJwk4JNg" target="_none"><i
+              class="fab fa-discord"></i> Discord</a></li>
+        <div class="closeMenu noselect"><i class="fa fa-times"></i></div>
+      </ul>
+    </nav>
+
+
+
+    <div class="container clear noselect">
+      <div class="row wrapper">
+
+        <span class="collapse" onclick="closeSidePanel()"><i class="fas fa-caret-left"></i></span>
+        <span class="expand" onclick="openSidePanel()"><i class="fas fa-caret-right"></i></span>
+
+        <div class="sidepanel">
+          <div class="divider left"></div>
+
+          <a class="title" href="#introduction">Introduction</a>
+
+          <a class="section" href="#aboutnebra">About Nebra</a>
+
+          <div class="divider left"></div>
+
+          <a class="title" href="#getranked">Get ranked</a>
+
+          <a class="section" href="#placeholder">Placeholder</a>
+
+          <div class="divider left"></div>
+
+          <a class="title" href="#tierlist">Tier ranking</a>
+
+          <a class="section" href="#S+">S+ Tier</a>
+          <a class="section" href="#S">S Tier</a>
+          <a class="section" href="#A">A Tier</a>
+          <a class="section" href="#B">B Tier</a>
+          <a class="section" href="#C">C Tier</a>
+          <a class="section" href="#D">D Tier</a>
+          <a class="section" href="#E">E Tier</a>
+
+          <div class="divider left"></div>
+
+          <a class="title" href="#blub">[blub] Guild</a>
+
+          <div class="space double"></div>
+
+        </div>
+        
+      <div class="right-col">
+       <div id="introduction"</div>
+        <div class="divider" style="width:24%; margin:30px 0;"></div>
+        
+          <h1>Introduction</h1>
+          <p id="aboutnebra">Greeting adventurer! Your are a Wynncraft player and want to mess with the best of the best?<br>
+                             Get yourself ranked in the official TNA ranking list and compete with others, become a rival and climb the top ranking ladder.
+                             This system not just works with the maximum completions, also skill and personality are important aspects to get high ranked.
+                             Every classification is done by a vote of multiple players to keep the ranking neutral.</p>
+           
+          
+          
+          <div class="divider" style="width:24%; margin:30px 0;"></div>
+
+          <h2>About Nebra</h2>
+          <div>
+          <p id="getranked">Nebra is a Wynncraft TNA ranking system. The Website is made in html, css and js. The discord bot is currently in development and is written in 
+                            js using the discord.js library, ruby, sql, python. </p>
           </div>
-      </div>
-      <div id="page">
-            <nav>
 
-               <div class="logo noselect">
-                  <img class="noselect" src="../2E6B2E67-9ABA-48CA-AE5B-F2BDA74CB953.jpg"> Nebra TNA ranking
-               </div>
+                
+          <div class="divider" style="width:24%; margin:30px 0;"></div> 
+            
+     
+  </div>
+   
+  <script src="../index.js"></script>
+  <script src="./commands.js"></script>
+ 
+</body>
 
-               <div class="openMenu noselect"><i class="fa fa-bars"></i></div>
-               <ul class="mainMenu noselect">
-                  <li><a href="../index.html"><i class="fas fa-home"></i> Home</a></li>
-                  <li><a href="../pages/tnal.html"><i class="fas fa-certificate"></i> TNA</a></li>
-                  <li><a href="../pages/tnal.html"><i class="fas fa-id-card"></i> Get Ranked</a></li>
-                  <li><a class="invite noselect" href="https://discord.gg/VQRJwk4JNg" target="_none"><i class="fab fa-discord"></i> Discord</a></li>
-                  <div class="closeMenu noselect"><i class="fa fa-times"></i></div>
-               </ul>
-         </nav>
-      </div>
-      <script src="../index.js"></script>
-   </body>
 </html>
-
