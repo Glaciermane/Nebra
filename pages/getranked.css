@@ -1,67 +1,42 @@
-*{
-    padding:0;
-    margin :0 
-}
-a {
-    text-decoration: none;
-    color: #e26f69;
-}
+/* Formular-Styling */
 
-.About-us p {
-	text-align: center;
-	font-weight: lighter;
-	font-size: 30px;
-}
-
-.About-us div .content{
-	text-align: center;
-}
-
-.Team p{
-    text-align: center;
-    font-weight: bolder;
-    text-transform: capitalize;
-	font-size: 27px;
-	
-
-}
-
-.devs{
-	display: flex;
-	justify-content: center;
-
-}
-.devs-card{
-	flex-wrap: wrap;
-	flex: 50%;
-	align-content: center;
-	flex-direction: row;
-	margin: 50px;
-}
-	
-.center-text {
+.form {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  height: 100vh;
 }
 
-.devs-images img{
-    border-radius: 50%;
-    border: 2px solid #e26f69;
-    height: 200px;
-    width: 200px;
+.form-group {
+  margin-bottom: 20px;
+  width: 300px;
 }
 
-
-.name a{
-color: #e26f69;
-font-weight: bolder;
-font-size: 20px;
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
 
-.post p{
-	color: rgba(255,255,255,0.8);
-	font-weight: lighter;
-	font-size: 15px
-	}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #e26f69;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #e26f69;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #bf4c47;
+}
+
+/* Weitere CSS-Regeln können hier ergänzt werden, um das Formular anzupassen */
