@@ -79,4 +79,32 @@ h1 {
   color: #e26f69;
 }
 
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-bar input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-bar button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.search-bar button[type="submit"]:hover {
+  background-color: #555;
+}
+
+
 /* Weitere CSS-Regeln können hier ergänzt werden, um das Formular anzupassen */
