@@ -83,16 +83,16 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 1px;
-  margin: 1px;
+  max-width: 300px; /* Maximalbreite des Suchfelds */
+  margin: 0 auto;
   margin-bottom: 20px;
 }
 
 .search-bar input[type="text"] {
-  width: 200px;
+  flex: 1;
   padding: 10px;
   border: none;
-  border-radius: 5px 0 0 5px;
+  border-radius: 5px;
   background-color: #e26f69;
   color: white;
 }
@@ -102,9 +102,10 @@ h1 {
   color: white;
   border: none;
   padding: 10px;
-  border-radius: 0 5px 5px 0;
+  border-radius: 5px;
   cursor: pointer;
 }
+
 
 .ranking-container {
   background-color: #333;
