@@ -115,8 +115,9 @@ h1 {
 }
 
 .ranking-container h2 {
-  margin-bottom: 10px;
-  color: #e26f69;
+  text-align: center; /* Text in der Mitte zentrieren */
+  color: #e26f69; /* Farbe für den Text festlegen */
+
 }
 
 .ranking-table {
