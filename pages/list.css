@@ -95,13 +95,14 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 90px;
+  max-width: 100px; /* Hier kannst du die maximale Breite anpassen */
   margin: 0 auto;
   margin-bottom: 20px;
 }
 
+
 .search-bar input[type="text"] {
-  width: 200px;
+  width: 100px;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px 0 0 5px;
