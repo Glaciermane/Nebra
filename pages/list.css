@@ -119,6 +119,9 @@ h1 {
 .ranking-table {
   display: flex;
   flex-direction: column;
+  background-color: #444;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 .table-header {
@@ -134,16 +137,17 @@ h1 {
 
 .table-row {
   display: flex;
-  background-color: #777;
+  background-color: #666;
 }
 
 .table-row:nth-child(even) {
-  background-color: #666;
+  background-color: #777;
 }
 
 .column:nth-child(1) {
   color: red;
 }
+
 
 
 
