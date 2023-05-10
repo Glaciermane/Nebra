@@ -157,7 +157,7 @@ h2 {
 
 .ranking-container {
  
-  background-color: #ccc;
+  background-color: rgba(0, 0, 0, 0.5); /* Transparentes Schwarz */
   padding: 20px;
   border-radius: 5px;
   color: #fff;
