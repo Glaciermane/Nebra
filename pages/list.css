@@ -127,7 +127,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 600px; /* Maximalbreite des Suchfelds */
+  max-width: 300px; /* Maximalbreite des Suchfelds */
   margin: 0 auto;
   margin-bottom: 20px;
 }
