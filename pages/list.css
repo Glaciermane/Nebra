@@ -189,7 +189,7 @@ h2 {
 
 /* CSS für die Header-Spalten */
 .column-name {
-  flex: 1;
+  margin-left: 20px;
 }
 
 .column-guild {
