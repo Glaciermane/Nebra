@@ -13,6 +13,23 @@
   width: 300px;
 }
 
+body::-webkit-scrollbar {
+  width: 10px; /* Breite der Scroll-Leiste anpassen */
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #ccc; /* Hintergrundfarbe der Scroll-Leiste */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #888; /* Farbe des Scroll-Leisten-Thumb */
+  border-radius: 5px; /* Abgerundete Ecken des Scroll-Leisten-Thumb */
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Farbe des Scroll-Leisten-Thumb bei Hover */
+}
+
 
 label {
   color: #e26f69; /* Farbe für die Überschriften festlegen */
