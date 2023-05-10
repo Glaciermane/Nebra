@@ -159,14 +159,14 @@ h2 {
   background-color: #ccc;
   padding: 0px;
   border-radius: 5px;
-  color: #fff;
+  color: #525252;
   margin-top: 20px;
   text-align: center;
 }
 
 .ranking-header {
   display: flex;
-  background-color: #f2f2f2;
+  background-color: #4a3c3c;
   font-weight: bold;
   padding: 10px;
 }
