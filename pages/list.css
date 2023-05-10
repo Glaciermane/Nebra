@@ -166,7 +166,7 @@ h2 {
 
 .ranking-header {
   display: flex;
-  background-color: #f2f2f2;
+  background-color: #c77b77;
   font-weight: bold;
   padding: 10px;
   color: #525252;
@@ -180,7 +180,7 @@ h2 {
 
 .ranking-row {
   display: flex;
-  background-color: #e6b8b8;
+  background-color: #e0a09d;
   align-items: center; /* Elemente vertikal zentriert ausrichten */
   padding: 10px;
   color: #525252;
