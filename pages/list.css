@@ -166,7 +166,7 @@ h2 {
 
 .ranking-header {
   display: flex;
-  background-color: #e07e79;
+  background-color: #d6d4d4;
   font-weight: bold;
   padding: 10px;
   color: #525252;
@@ -180,7 +180,7 @@ h2 {
 
 .ranking-row {
   display: flex;
-  background-color: #e0a09d;
+  background-color: #ededed;
   align-items: center; /* Elemente vertikal zentriert ausrichten */
   padding: 10px;
   color: #525252;
@@ -193,15 +193,15 @@ h2 {
 }
 
 .column-guild {
-  flex: 1;
+  margin-left: 120px;
 }
 
 .column-ranking {
-  flex: 1;
+  margin-left: 220px;
 }
 
 .column-completions {
-  flex: 1;
+  margin-left: 320px;
 }
 
 
