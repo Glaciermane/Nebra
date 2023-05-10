@@ -164,7 +164,7 @@ h2 {
   color: #fff;
   border:none;
   margin-top: 20px;
-  margin-bottom: 10px; /* Hinzugefügt: Unteren Abstand */
+  margin: 20px 10px; /* Hinzugefügt: 20px oben/unten, 10px links/rechts */
   text-align: center; /* Zentriert den Inhalt */
 }
 
