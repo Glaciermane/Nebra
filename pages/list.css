@@ -189,6 +189,7 @@ h2 {
 }
 
 .column {
+  flex-direction: column;
   padding: 10px;
   text-align: center;
   color: #fff;
