@@ -1,5 +1,5 @@
 const config = {
-  token: process.env.MEIN_DISCORD_BOT_TOKEN,
+  token: window.env.BOT_TOKEN,
   // Weitere geheime Informationen...
 };
 
