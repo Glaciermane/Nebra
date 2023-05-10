@@ -180,6 +180,7 @@ h2 {
 .ranking-row {
   display: flex;
   background-color: #ffffff;
+  align-items: center; /* Elemente vertikal zentriert ausrichten */
   padding: 10px;
   color: #525252;
   border-bottom: 1px solid #ccc; /* Untere Trennlinie hinzufügen */
