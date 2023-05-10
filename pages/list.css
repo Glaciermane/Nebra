@@ -80,8 +80,12 @@ h1 {
 }
 
 .search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 300px; /* Maximalbreite des Suchfelds */
+  margin: 0 auto;
   margin-bottom: 20px;
-  width: 300px;
 }
 
 .search-bar input[type="text"] {
