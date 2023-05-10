@@ -151,6 +151,7 @@ h2 {
 }
 
 .ranking-table {
+  color #fff
   width: 100%;
   border-collapse: collapse;
 }
@@ -163,10 +164,12 @@ h2 {
 }
 
 .ranking-table thead th {
-  background-color: #f2f2f2;
+  background-color: #555;
 }
 
 ranking-table tbody tr {
+  color: #e26f69;
+  background-color: #666;
   display: block;
   border-bottom: none;
 }
