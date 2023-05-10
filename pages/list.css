@@ -159,16 +159,16 @@ h2 {
   background-color: #ccc;
   padding: 10px;
   border-radius: 5px;
-  color: #525252;
   margin-top: 20px;
   text-align: center;
 }
 
 .ranking-header {
   display: flex;
-  background-color: #4a3c3c;
+  background-color: #f2f2f2;
   font-weight: bold;
   padding: 10px;
+  color: #525252;
 }
 
 .ranking-column {
@@ -181,6 +181,7 @@ h2 {
   display: flex;
   background-color: #ffffff;
   padding: 10px;
+  color: #525252;
   border-bottom: 1px solid #ccc; /* Untere Trennlinie hinzufügen */
 }
 
