@@ -166,7 +166,7 @@ h2 {
 
 .ranking-header {
   display: flex;
-  background-color: #555;
+  background-color: #f2f2f2;
   font-weight: bold;
   padding: 10px;
 }
@@ -181,6 +181,24 @@ h2 {
   background-color: #ffffff;
   padding: 10px;
 }
+
+/* CSS für die Header-Spalten */
+.column-name {
+  flex: 2;
+}
+
+.column-guild {
+  flex: 1;
+}
+
+.column-ranking {
+  flex: 1;
+}
+
+.column-completions {
+  flex: 1;
+}
+
 
 /* Weitere CSS-Anpassungen können hier ergänzt werden */
 
