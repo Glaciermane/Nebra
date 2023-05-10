@@ -158,6 +158,7 @@ h2 {
 .ranking-table {
   background-color: #ccc;
   padding: 10px;
+  border: none;
   border-radius: 5px;
   margin-top: 20px;
   text-align: center;
@@ -179,7 +180,7 @@ h2 {
 
 .ranking-row {
   display: flex;
-  background-color: #ffffff;
+  background-color: #e6b8b8;
   align-items: center; /* Elemente vertikal zentriert ausrichten */
   padding: 10px;
   color: #525252;
