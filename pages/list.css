@@ -167,7 +167,7 @@ h2 {
   background-color: #555;
 }
 
-ranking-table tbody tr {
+.ranking-table tbody tr {
   color: #e26f69;
   background-color: #666;
   display: block;
