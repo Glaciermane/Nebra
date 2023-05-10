@@ -164,6 +164,7 @@ h2 {
   color: #fff;
   border:none;
   margin-top: 20px;
+  margin-bottom: 10px; /* Hinzugefügt: Unteren Abstand */
   text-align: center; /* Zentriert den Inhalt */
 }
 
@@ -222,6 +223,7 @@ h2 {
   align-items: center; /* Elemente vertikal zentriert ausrichten */
   padding: 10px;
   color: #ffff;
+  
   border-bottom: 1px solid #ccc; /* Untere Trennlinie hinzufügen */
 }
 
