@@ -91,14 +91,12 @@ h2 {
 .select-icon i {
   color: #e26f69;
 }
-
 .search-bar {
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 300px; /* Maximalbreite des Suchfelds */
   margin: 0 auto;
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .search-bar input[type="text"] {
@@ -120,14 +118,15 @@ h2 {
   cursor: pointer;
 }
 
-
 .ranking-container {
-  background-color: #ccc; /* Hintergrundfarbe des Kastens */
+  background-color: #ccc;
   padding: 20px;
   border-radius: 5px;
   color: #fff;
-  margin-top: 20px; /* Abstand zum vorherigen Element */
+  margin-top: 20px;
+  text-align: center; /* Zentriert den Inhalt */
 }
+
 
 .ranking-container h2 {
   text-align: center; /* Text in der Mitte zentrieren */
