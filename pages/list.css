@@ -177,6 +177,7 @@ h2 {
 }
 
 .table-row {
+  flex-direction: column;
   background-color: #666;
 }
 
