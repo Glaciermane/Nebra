@@ -165,13 +165,13 @@ h2 {
 
 .table-row {
   display: contents;
-  grid-template-columns: repeat(5, 1fr 1fr 1fr 1fr); /* Anzahl der Spalten anpassen */
+  grid-template-columns: repeat(4, 1fr); /* Anzahl der Spalten anpassen */
   background-color: #666;
 }
 
 .table-header {
   display: grid;
-  grid-template-columns: repeat(5, 1fr 1fr 1fr 1fr); /* Anzahl der Spalten anpassen */
+  grid-template-columns: repeat(4, 1fr); /* Anzahl der Spalten anpassen */
   background-color: #555;
   font-weight: bold;
 }
