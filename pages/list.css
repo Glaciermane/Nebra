@@ -164,14 +164,22 @@ h2 {
   text-align: center;
 }
 
-.ranking-row {
+.ranking-header {
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 10px;
+  background-color: #f2f2f2;
+  font-weight: bold;
+  padding: 10px;
 }
 
 .ranking-column {
-  flex-basis: 25%;
+  flex: 1;
+  padding: 10px;
+}
+
+.ranking-row {
+  display: flex;
+  background-color: #ffffff;
+  padding: 10px;
 }
 
 /* Weitere CSS-Anpassungen können hier ergänzt werden */
