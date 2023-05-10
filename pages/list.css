@@ -159,31 +159,12 @@ h2 {
   width 100%;
   border-radius: 5px;
   background-color: #555;
-}
-
-
-.ranking-table th,
-.ranking-table td {
-  padding: 8px;
-  text-align: left;
-  border-bottom: 1px solid #ddd;
-}
-
-.ranking-table thead th {
   color: #fff;
-  background-color: #555;
+  magrin-top 20px;
 }
 
-.ranking-table tbody tr {
-  color: #e26f69;
-  background-color: #666;
-  display: block;
-  border-bottom: none;
-}
 
-.ranking-table tbody td {
-  display: block;
-}
+
 
 
 
