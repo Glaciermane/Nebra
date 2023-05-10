@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 
 const bot = new Discord.Client();
-const token = 'MTEwMzU4Njk2NDkzMTg3MDczMA.GByJRM.ElIVEbvCx2Niz7wV2c8bs28nH5DSczqJvfW0z0';
+const token = config.token;
 const channelId = '1101111620215779368';
 
 bot.login(token);
