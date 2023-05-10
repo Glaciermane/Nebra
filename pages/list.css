@@ -168,7 +168,7 @@ h2 {
 
 
 .ranking-table {
-  background-color: #ccc;
+  background-color: rgba(0, 0, 0, 0.5); /* Transparentes Schwarz */
   padding: 10px;
   border: none;
   border-radius: 5px;
