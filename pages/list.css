@@ -108,18 +108,16 @@ h1 {
 
 
 .ranking-container {
-  background-color: #333;
+  background-color: #ccc; /* Hintergrundfarbe des Kastens */
   padding: 20px;
   border-radius: 5px;
-  color: #e26f69;
-  text-align: center;
+  color: #fff;
+  margin-top: 20px; /* Abstand zum vorherigen Element */
 }
 
 .ranking-container h2 {
-  text-align: center; /* Text in der Mitte zentrieren */
-  color: #e26f69; /* Farbe für den Text festlegen */
-
-}
+  text-align: center;
+  marg
 
 .ranking-table {
   display: grid;
