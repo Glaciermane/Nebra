@@ -177,7 +177,6 @@ h2 {
 }
 
 .table-row {
-  flex-direction: column;
   background-color: #666;
 }
 
@@ -189,7 +188,6 @@ h2 {
 }
 
 .column {
-  flex-direction: column;
   padding: 10px;
   text-align: center;
   color: #fff;
