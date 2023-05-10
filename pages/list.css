@@ -172,7 +172,7 @@ h2 {
 
 .table-header {
   display: grid;
-  grid-template-columns: 1fr ; /* Spaltenbreite anpassen */
+  grid-template-columns: 1fr 1fr 1fr; /* Spaltenbreite anpassen */
   background-color: #555;
   font-weight: bold;
 }
