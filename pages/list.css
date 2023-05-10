@@ -164,8 +164,6 @@ h2 {
 }
 
 .table-row {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Anzahl der Spalten anpassen */
   background-color: #666;
 }
 
@@ -176,12 +174,12 @@ h2 {
   font-weight: bold;
 }
 
-
 .column {
   padding: 10px;
   text-align: center;
   color: #fff;
 }
+
 
 
 
