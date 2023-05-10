@@ -218,7 +218,7 @@ h2 {
 
 .ranking-row {
   display: flex;
-  background-color: rgba(0, 0, 0, 0.5); /* Transparentes Schwarz */
+  background-color: rgba(38, 37, 37, 0.8); /* Transparentes Schwarz */
   align-items: center; /* Elemente vertikal zentriert ausrichten */
   padding: 10px;
   color: #ffff;
