@@ -174,7 +174,7 @@ h2 {
   padding: 1px;
   border: none;
   border-radius: 5px;
-  margin-top: 20px;
+  margin: 20px 10px; /* Hinzugefügt: 20px oben/unten, 10px links/rechts */
   text-align: center;
 }
 
