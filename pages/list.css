@@ -157,7 +157,7 @@ h2 {
 
 .ranking-table {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Spaltenbreite anpassen */
+  grid-template-columns: repeat(5, 1fr); /* Anzahl der Spalten anpassen */
   background-color: #444;
   border-radius: 5px;
   overflow: hidden;
@@ -165,19 +165,22 @@ h2 {
 
 .table-row {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Spaltenbreite anpassen */
+  grid-template-columns: repeat(5, 1fr); /* Anzahl der Spalten anpassen */
   background-color: #666;
 }
 
-
 .table-header {
   display: grid;
-  grid-template-columns: 5fr 5fr 5fr; /* Spaltenbreite anpassen */
+  grid-template-columns: repeat(5, 1fr); /* Anzahl der Spalten anpassen */
   background-color: #555;
   font-weight: bold;
 }
 
-
+.column {
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
 
 
 
