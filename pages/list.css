@@ -169,12 +169,6 @@ h2 {
   font-weight: bold;
 }
 
-.column {
-  padding: 10px;
-  text-align: center;
-  color: #e26f69;
-}
-
 .table-row {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr; /* Spaltenbreite anpassen */
