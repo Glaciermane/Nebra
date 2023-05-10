@@ -144,7 +144,7 @@ h2 {
   background-color: #211d1d;
   background-color: rgba(226, 111, 105, .7);
 }
-.search-bar button[type="submit"]:active {
+.search-bar button[type="search"]:active {
   background-color: #993c39;
 }
 
