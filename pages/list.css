@@ -178,10 +178,10 @@ h2 {
 
 .ranking-header {
   display: flex;
-  background-color: #d6d4d4;
+  background-color: rgba(0, 0, 0, 0.7); /* Transparentes Schwarz */
   font-weight: bold;
   padding: 10px;
-  color: #525252;
+  color: #ffff;
 }
 
 .ranking-column {
@@ -216,10 +216,10 @@ h2 {
 
 .ranking-row {
   display: flex;
-  background-color: #ededed;
+  background-color: rgba(0, 0, 0, 0.5); /* Transparentes Schwarz */
   align-items: center; /* Elemente vertikal zentriert ausrichten */
   padding: 10px;
-  color: #525252;
+  color: #ffff;
   border-bottom: 1px solid #ccc; /* Untere Trennlinie hinzufügen */
 }
 
