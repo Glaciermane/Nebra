@@ -179,6 +179,30 @@ h2 {
   border: none; /* Rand entfernen */
 }
 
+.column-cell-name {
+  magrin-left: 30px;
+  padding: 10px;
+  border: none; /* Rand entfernen */
+}
+
+.column-cell-guild {
+  magrin-left: 150px;
+  padding: 10px;
+  border: none; /* Rand entfernen */
+}
+
+.column-cell-tier {
+  magrin-left: 220px;
+  padding: 10px;
+  border: none; /* Rand entfernen */
+}
+
+.column-cell-compl {
+  magrin-left: 300px;
+  padding: 10px;
+  border: none; /* Rand entfernen */
+}
+
 .ranking-row {
   display: flex;
   background-color: #ededed;
@@ -190,19 +214,19 @@ h2 {
 
 /* CSS für die Header-Spalten */
 .column-name {
-  margin-left: 20px;
+  flex: 2;
 }
 
 .column-guild {
-  margin-left: 120px;
+  flex: 1;
 }
 
 .column-ranking {
-  margin-left: 220px;
+  flex: 1;
 }
 
 .column-completions {
-  margin-left: 320px;
+  flex: 1;
 }
 
 
