@@ -48,7 +48,7 @@ textarea {
   color: black; /* Schriftfarbe auf schwarz ändern */
 }
 
-button[type="submit"] {
+button[type="search"] {
   padding: 10px 20px;
   background-color: #e26f69;
   color: white;
@@ -57,7 +57,7 @@ button[type="submit"] {
   cursor: pointer;
 }
 
-button[type="submit"]:hover {
+button[type="search"]:hover {
   background-color: #bf4c47;
 }
 
