@@ -156,13 +156,26 @@ h2 {
 
 
 .ranking-table {
+  background-color: #ccc;
   padding: 20px;
-  width: 100%;
   border-radius: 5px;
-  background-color: #555;
   color: #fff;
-  magrin-top: 20px;
+  margin-top: 20px;
+  text-align: center;
 }
+
+.ranking-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.ranking-column {
+  flex-basis: 25%;
+}
+
+/* Weitere CSS-Anpassungen können hier ergänzt werden */
+
 
 
 
