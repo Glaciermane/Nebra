@@ -251,6 +251,30 @@ h2 {
 
 
 
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.page-link {
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #e26f69;
+  border: 1px solid #e26f69;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+
+.page-link:hover {
+  background-color: #e26f69;
+  color: white;
+}
+
+.page-link.active {
+  background-color: #e26f69;
+  color: white;
+}
 
 
 
