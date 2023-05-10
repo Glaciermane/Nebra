@@ -13,6 +13,28 @@
   width: 300px;
 }
 
+.row ul li::before {
+    content: "\2022";
+    color: #e26f69;
+    font-weight: lighter;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.row {
+    max-width: 100rem;
+    margin: auto;
+    display: block;
+    background-color: rgba(21, 22, 24, .7);
+    animation: pageShow .3s ease-in-out;
+}
+
+.wrapper {
+    display: flex;
+    animation: pageShow .3s ease-in-out;
+}
+
 label {
   color: #e26f69; /* Farbe für die Überschriften festlegen */
   display: block;
