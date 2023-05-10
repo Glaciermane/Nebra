@@ -157,7 +157,7 @@ h2 {
 
 .ranking-table {
   background-color: #ccc;
-  padding: 20px;
+  padding: 0px;
   border-radius: 5px;
   color: #fff;
   margin-top: 20px;
@@ -173,12 +173,15 @@ h2 {
 
 .ranking-column {
   flex: 1;
+  padding: 10px;
+  border: none; /* Rand entfernen */
 }
 
 .ranking-row {
   display: flex;
   background-color: #ffffff;
   padding: 10px;
+  border-bottom: 1px solid #ccc; /* Untere Trennlinie hinzufügen */
 }
 
 /* CSS für die Header-Spalten */
