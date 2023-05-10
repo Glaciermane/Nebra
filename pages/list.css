@@ -130,7 +130,8 @@ h2 {
 }
 
 
-.search-bar button[type="submit"] {
+
+.search-bar button[type="search"] {
   background-color: #e26f69;
   color: white;
   border: none;
@@ -138,7 +139,10 @@ h2 {
   width: 80px;
   border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
+
+
 
 
 /* Ranking List */
