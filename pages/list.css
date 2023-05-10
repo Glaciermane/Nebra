@@ -157,7 +157,7 @@ h2 {
 
 .ranking-table {
   display: grid;
-  grid-template-columns: repeat(4, 1fr 1fr 1fr 1fr); /* Spaltenbreite anpassen */
+  grid-template-columns: repeat(4, 1fr); /* Spaltenbreite anpassen */
   background-color: #444;
   border-radius: 5px;
   overflow: hidden;
@@ -172,7 +172,7 @@ h2 {
 
 .table-header {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr; /* Spaltenbreite anpassen */
+  grid-template-columns: 1fr ; /* Spaltenbreite anpassen */
   background-color: #555;
   font-weight: bold;
 }
