@@ -108,13 +108,15 @@ h2 {
 .select-icon i {
   color: #e26f69;
 }
+
 .search-bar {
   display: flex;
   align-items: center;
   justify-content: center;
   max-width: 300px;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: white; /* Hintergrundfarbe auf weiß ändern */
 }
 
 .search-bar input[type="text"] {
@@ -122,9 +124,10 @@ h2 {
   padding: 10px;
   border: none;
   border-radius: 5px;
-  background-color: white;
-  color: white;
+  background-color: white; /* Hintergrundfarbe auf weiß ändern */
+  color: #e26f69;
 }
+
 
 .search-bar button[type="submit"] {
   background-color: #e26f69;
