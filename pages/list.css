@@ -13,11 +13,6 @@
   width: 300px;
 }
 
-.form-search {
-  magrin-bottom: 20px;
-  width: 600px;
-}
-
 .row ul li::before {
     content: "\2022";
     color: #e26f69;
