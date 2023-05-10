@@ -156,11 +156,18 @@ h2 {
 
 .ranking-table {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr; /* Spaltenbreite anpassen */
+  grid-template-columns: 1fr; /* Nur eine Spalte */
   background-color: #444;
   border-radius: 5px;
   overflow: hidden;
 }
+
+.table-row {
+  display: grid;
+  grid-template-columns: 1fr; /* Nur eine Spalte */
+  background-color: #666;
+}
+
 
 .table-header {
   display: grid;
@@ -169,11 +176,6 @@ h2 {
   font-weight: bold;
 }
 
-.table-row {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr; /* Spaltenbreite anpassen */
-  background-color: #666;
-}
 
 .table-row:nth-child(even) {
   background-color: #777;
