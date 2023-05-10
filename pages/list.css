@@ -180,33 +180,33 @@ h2 {
 }
 
 .column-cell-name {
-  magrin-left: 30px;
+  margin-left: 30px;
   padding: 10px;
   border: none; /* Rand entfernen */
 }
 
 .column-cell-guild {
-  magrin-left: 150px;
+  margin-left: 150px;
   padding: 10px;
   border: none; /* Rand entfernen */
 }
 
 .column-cell-tier {
-  magrin-left: 220px;
+  margin-left: 220px;
   padding: 10px;
   border: none; /* Rand entfernen */
 }
 
 .column-cell-compl {
-  magrin-left: 300px;
+  margin-left: 300px;
   padding: 10px;
   border: none; /* Rand entfernen */
 }
 
 .ranking-row {
-
+  display: flex;
   background-color: #ededed;
-
+  align-items: center; /* Elemente vertikal zentriert ausrichten */
   padding: 10px;
   color: #525252;
   border-bottom: 1px solid #ccc; /* Untere Trennlinie hinzufügen */
