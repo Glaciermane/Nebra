@@ -180,25 +180,25 @@ h2 {
 }
 
 .column-cell-name {
-  margin-left: 60px;
+  flex: 2;
   padding: 10px;
   border: none; /* Rand entfernen */
 }
 
 .column-cell-guild {
-  margin-left: 110px;
+  flex: 1;
   padding: 10px;
   border: none; /* Rand entfernen */
 }
 
 .column-cell-tier {
-  margin-left: 240px;
+  flex: 1;
   padding: 10px;
   border: none; /* Rand entfernen */
 }
 
 .column-cell-compl {
-  margin-left: 260px;
+  flex: 1;
   padding: 10px;
   border: none; /* Rand entfernen */
 }
