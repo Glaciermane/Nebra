@@ -154,10 +154,13 @@ h2 {
   text-align: center; /* Zentriert den Inhalt */
 }
 
+
 .ranking-table {
-  width: 100%;
-  border-collapse: collapse;
+  width 100%;
+  border-radius: 5px;
+  background-color: #555;
 }
+
 
 .ranking-table th,
 .ranking-table td {
