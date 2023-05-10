@@ -113,7 +113,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 40px;
+  max-width: 200px;
   margin: 0 auto;
   margin-bottom: 20px;
   background-color: white; /* Hintergrundfarbe auf weiß ändern */
