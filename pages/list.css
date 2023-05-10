@@ -164,7 +164,7 @@ h2 {
   color: #fff;
   border:none;
   margin-top: 20px;
-  margin: 20px 10px; /* Hinzugefügt: 20px oben/unten, 10px links/rechts */
+  margin: 20px 40px; /* Hinzugefügt: 20px oben/unten, 10px links/rechts */
   text-align: center; /* Zentriert den Inhalt */
 }
 
@@ -175,7 +175,7 @@ h2 {
   border: none;
   border-radius: 5px;
   margin-top: 20px;
-  margin: 20px 400px; /* Hinzugefügt: 20px oben/unten, 10px links/rechts */
+  margin: 20px 40px; /* Hinzugefügt: 20px oben/unten, 10px links/rechts */
   text-align: center;
 }
 
