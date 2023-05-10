@@ -139,8 +139,15 @@ h2 {
   width: 80px;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
 }
+.search-bar button[type="submit"]:hover {
+  background-color: #bf4c47;
+}
+.search-bar button[type="submit"]:active {
+  background-color: #993c39;
+}
+
+
 
 
 
