@@ -113,7 +113,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 35000px; /* Breite der Suchleiste anpassen */
+  max-width: 350px; /* Breite der Suchleiste anpassen */
   margin: 0 auto;
   margin-bottom: 20px;
   border-radius: 5px;
