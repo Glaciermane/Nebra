@@ -207,21 +207,6 @@ h2 {
   border: none; /* Rand entfernen */
 }
 
-.column-cell-badge {
-  flex: 1;
-  padding: 10px;
-  border: none; /* Rand entfernen */
-}
-
-.column-cell-badge-expert {
-  flex: 1;
-  padding: 10px;
-  border: none; /* Rand entfernen */
-}
-
-
-
-
 .column-cell-guild {
   flex: 1;
   padding: 10px;
