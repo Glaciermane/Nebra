@@ -79,4 +79,16 @@ h1 {
   color: #e26f69;
 }
 
+.formgr {
+  padding: 20px;
+}
+.form-label.form-label-auto {
+        
+      display: block;
+      float: none;
+      text-align: left;
+      width: 100%;
+    
+      }
+
 /* Weitere CSS-Regeln können hier ergänzt werden, um das Formular anzupassen */
