@@ -18,41 +18,44 @@
 
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,600,700,800,900&display=swap" rel="stylesheet">
   
-<script>
-  window.addEventListener('load', function() {
-    sortTable();
-  });
+html
+Copy code
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sortierbare Tabelle</title>
+  <script>
+    window.onload = function() {
+      function sortTable() {
+        var table = document.getElementById("tablesort");
+        var tbody = table.getElementsByTagName("tbody")[0];
+        var rows = Array.from(tbody.getElementsByTagName("tr"));
 
-  function sortTable() {
-    var table, rows, switching, i, x, y, shouldSwitch;
-    table = document.getElementById("tablesort");
-    switching = true;
+        var tierOrder = {
+          "S+ Tier": 0,
+          "S  Tier": 1,
+          "A  Tier": 2,
+          "B  Tier": 3,
+          "C  Tier": 4,
+          "D  Tier": 5,
+          "E  Tier": 6
+        };
 
-    while (switching) {
-      switching = false;
-      rows = table.rows;
+        rows.sort(function(a, b) {
+          var tierA = a.getElementsByClassName("column-cell-tier")[0].innerHTML;
+          var tierB = b.getElementsByClassName("column-cell-tier")[0].innerHTML;
 
-      for (i = 1; i < (rows.length - 1); i++) {
-        shouldSwitch = false;
-        x = rows[i].getElementsByClassName("column-cell-tier")[0].innerHTML;
-        y = rows[i + 1].getElementsByClassName("column-cell-tier")[0].innerHTML;
+          return tierOrder[tierA] - tierOrder[tierB];
+        });
 
-        // Hier wird die gewünschte Sortierreihenfolge festgelegt
-        var tierOrder = { "S+ Tier": 0, "S  Tier": 1, "A  Tier": 2, "B  Tier": 3, "C  Tier": 4, "D  Tier": 5, "E  Tier": 6 };
-
-        if (tierOrder[x] > tierOrder[y]) {
-          shouldSwitch = true;
-          break;
+        for (var i = 0; i < rows.length; i++) {
+          tbody.appendChild(rows[i]);
         }
       }
 
-      if (shouldSwitch) {
-        rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
-        switching = true;
-      }
-    }
-  }
-</script>
+      sortTable();
+    };
+  </script>
 </head>
 </head>
 
