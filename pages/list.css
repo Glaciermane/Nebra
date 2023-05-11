@@ -201,7 +201,7 @@ h2 {
 }
 
 .column-cell-name {
-  flex: 2;
+  flex: 1;
   padding: 10px;
   border: none; /* Rand entfernen */
 }
@@ -240,7 +240,11 @@ h2 {
 
 /* CSS für die Header-Spalten */
 .column-name {
-  flex: 2;
+  flex: 1;
+}
+
+.column-badge {
+  flex: 1;
 }
 
 .column-guild {
@@ -293,13 +297,10 @@ h2 {
   heigth: 20px;
   
 .badge-expert {
-  display: block;
-  width: 100%;
-  height: 100%px;
+  flex: 1;
+  padding: 10px;
+  border: none; /* Rand entfernen */
   background-image: url("https://cdn.discordapp.com/attachments/1026710692088258650/1106166882345693255/IMG_4666.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
 }
 
 .badge-pro {
