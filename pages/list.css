@@ -141,8 +141,8 @@ h2 {
   cursor: pointer;
 }
 .search-bar button[type="search"]:hover {
-  box-shadow: 0 10px 7px rgba(226, 111, 105, 1);
-  background-color: rgba(214, 94, 88, .7);
+  box-shadow: 2px 1px 15px rgba(226, 111, 105, 1);
+  
 }
 .search-bar button[type="search"]:active {
   background-color: #993c39;
