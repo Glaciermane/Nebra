@@ -18,30 +18,41 @@
 
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,600,700,800,900&display=swap" rel="stylesheet">
   
-    <script>
-    function sortRankings() {
-      const rankingRows = Array.from(document.querySelectorAll('.ranking-row'));
+<script>
+  window.addEventListener('load', function() {
+    sortTable();
+  });
 
-      rankingRows.sort((a, b) => {
-        const tierA = a.querySelector('.column-cell-tier').textContent.trim();
-        const tierB = b.querySelector('.column-cell-tier').textContent.trim();
+  function sortTable() {
+    var table, rows, switching, i, x, y, shouldSwitch;
+    table = document.getElementById("tablesort");
+    switching = true;
 
-        if (tierA < tierB) {
-          return -1;
-        } else if (tierA > tierB) {
-          return 1;
-        } else {
-          return 0;
+    while (switching) {
+      switching = false;
+      rows = table.rows;
+
+      for (i = 1; i < (rows.length - 1); i++) {
+        shouldSwitch = false;
+        x = rows[i].getElementsByClassName("column-cell-tier")[0].innerHTML;
+        y = rows[i + 1].getElementsByClassName("column-cell-tier")[0].innerHTML;
+
+        // Hier wird die gewünschte Sortierreihenfolge festgelegt
+        var tierOrder = { "s+": 0, "s": 1, "a": 2, "b": 3, "c": 4, "d": 5, "e": 6 };
+
+        if (tierOrder[x] > tierOrder[y]) {
+          shouldSwitch = true;
+          break;
         }
-      });
+      }
 
-      const rankingTable = document.querySelector('.ranking-table');
-
-      rankingRows.forEach(row => {
-        rankingTable.appendChild(row);
-      });
+      if (shouldSwitch) {
+        rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+        switching = true;
+      }
     }
-  </script>
+  }
+</script>
 </head>
 </head>
 
@@ -86,7 +97,7 @@
 </div>
  
   
-<div class="ranking-table">
+<div id="tablesort" class="ranking-table">
   <div class="ranking-header">
     <div class="ranking-column column-name">Name</div>
     <div class="ranking-column column-guild">Guild</div>
