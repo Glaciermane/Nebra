@@ -286,14 +286,15 @@ h2 {
   color: white;
 }
 
-.Badge-expert {
+.badge-expert {
   width: 20px;
   height: 20px;
-  background-image: url("https://cdn.discordapp.com/attachments/1026710692088258650/1106166884149231636/IMG_4668.png");
+  background-image: url("https://cdn.discordapp.com/attachments/1026710692088258650/1106166882345693255/IMG_4666.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
+
 
 
 
