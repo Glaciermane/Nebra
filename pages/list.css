@@ -285,7 +285,11 @@ h2 {
   color: white;
 }
 
-
+.Badge-expert {
+  background-image: url("https://cdn.discordapp.com/attachments/1026710692088258650/1106166884149231636/IMG_4668.png");
+  max-width: 10px;
+  max-height: 10px;
+}
 
 
 
