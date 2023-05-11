@@ -203,6 +203,7 @@ h2 {
 .column-cell-name {
   flex: 1;
   padding: 10px;
+  padding-right: 25px;
   border: none; /* Rand entfernen */
 }
 
