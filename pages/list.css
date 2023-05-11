@@ -226,7 +226,7 @@ h2 {
   font-size: 14px; /* Neue Schriftgröße festlegen */
   background-color: rgba(38, 37, 37, 0.8); /* Transparentes Schwarz */
   align-items: center; /* Elemente vertikal zentriert ausrichten */
-  padding: 10px;
+  padding: 5px;
   color: #ffff;
   
   border-bottom: 1px solid #e26f69; /* Untere Trennlinie hinzufügen */
