@@ -248,6 +248,10 @@ h2 {
   flex: 1;
 }
 
+.column-badge {
+  flex: 1;
+}
+
 .column-guild {
   flex: 1;
 }
