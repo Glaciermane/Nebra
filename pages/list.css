@@ -312,12 +312,9 @@ h2 {
   
   
   
-.badge-pro::after {
+.badge-pro {
   content: "";
-  position: absolute;
-  top: 50%;
-  right: 5px;
-  transform: translateY(-50%);
+  position: relative;
   width: 20px;
   height: 20px;
   background-image: url("https://cdn.discordapp.com/attachments/1026710692088258650/1106166882731577455/IMG_4665.png");
@@ -328,12 +325,9 @@ h2 {
 
   
   
-.badge-medium::after {
+.badge-medium {
   content: "";
-  position: absolute;
-  top: 50%;
-  right: 5px;
-  transform: translateY(-50%);
+  position: relative;
   width: 20px;
   height: 20px;
   background-image: url("https://cdn.discordapp.com/attachments/1026710692088258650/1106166882731577455/IMG_4664.png");
@@ -342,12 +336,9 @@ h2 {
   background-size: contain;
 }
   
-.badge-rookie::after {
+.badge-rookie {
   content: "";
-  position: absolute;
-  top: 50%;
-  right: 5px;
-  transform: translateY(-50%);
+  position: relative;
   width: 20px;
   height: 20px;
   background-image: url("https://cdn.discordapp.com/attachments/1026710692088258650/1106166882731577455/IMG_4663.png");
