@@ -38,7 +38,7 @@
         y = rows[i + 1].getElementsByClassName("column-cell-tier")[0].innerHTML;
 
         // Hier wird die gewünschte Sortierreihenfolge festgelegt
-        var tierOrder = { "s+": 0, "s": 1, "a": 2, "b": 3, "c": 4, "d": 5, "e": 6 };
+        var tierOrder = { "S+ Tier": 0, "S  Tier": 1, "A  Tier": 2, "B  Tier": 3, "C  Tier": 4, "D  Tier": 5, "E  Tier": 6 };
 
         if (tierOrder[x] > tierOrder[y]) {
           shouldSwitch = true;
