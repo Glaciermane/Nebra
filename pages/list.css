@@ -185,11 +185,12 @@ h2 {
 .ranking-header {
   display: flex;
   border-radius: 10px;
-  background-color: rgba(0, 0, 0, 0.7); /* Transparentes Schwarz */
+  background-color: rgba(29, 10, 10, 1); /* Transparentes Schwarz */
   font-weight: bold;
   padding: 10px;
   color: #ffff;
-  border-bottom: 2px solid #e26f69; /* Untere Trennlinie hinzufügen */
+  box-shadow: 0 10px 7px rgba(0, 0, 0, 1);
+  border-bottom: 3px solid #e26f69; /* Untere Trennlinie hinzufügen */
 }
 
 .ranking-column {
@@ -228,6 +229,8 @@ h2 {
   background-color: rgba(38, 37, 37, 0.8); /* Transparentes Schwarz */
   align-items: center; /* Elemente vertikal zentriert ausrichten */
   padding: 3px;
+  box-shadow: 0 10px 7px rgba(0, 0, 0, 1);
+  border-radius: 7px;
   color: #ffff;
   
   border-bottom: 1px solid #e26f69; /* Untere Trennlinie hinzufügen */
