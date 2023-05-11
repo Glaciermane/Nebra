@@ -309,15 +309,28 @@ h2 {
   display: inline-block;
   witdh: 20px;
   heigth: 20px;
+ 
   
-.badge-expert {
+.badge-expert::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
   width: 20px;
   height: 20px;
-  border: none; /* Rand entfernen */
   background-image: url("https://cdn.discordapp.com/attachments/1026710692088258650/1106166882345693255/IMG_4666.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
-
-.badge-pro {
+  
+.badge-pro::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
   width: 20px;
   height: 20px;
   background-image: url("https://cdn.discordapp.com/attachments/1026710692088258650/1106166882731577455/IMG_4665.png");
@@ -326,23 +339,36 @@ h2 {
   background-size: contain;
 }
 
-.badge-medium {
+  
+  
+.badge-medium::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
   width: 20px;
   height: 20px;
-  background-image: url("https://cdn.discordapp.com/attachments/1026710692088258650/1106166883096461364/IMG_4664.png");
+  background-image: url("https://cdn.discordapp.com/attachments/1026710692088258650/1106166882731577455/IMG_4664.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+  
+.badge-rookie::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-image: url("https://cdn.discordapp.com/attachments/1026710692088258650/1106166882731577455/IMG_4663.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
 
-.badge-rookie {
-  width: 20px;
-  height: 20px;
-  background-image: url("https://cdn.discordapp.com/attachments/1026710692088258650/1106166883411046441/IMG_4663.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-}
 
 /* Weitere CSS-Regeln können hier ergänzt werden, um das Formular anzupassen */
 
