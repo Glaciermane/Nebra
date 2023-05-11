@@ -312,7 +312,7 @@ h2 {
   heigth: 20px;
  
   
-.badge-expert::after {
+.column-cell-name::after {
   content: "";
   position: absolute;
   top: 50%;
