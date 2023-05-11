@@ -172,7 +172,7 @@ h2 {
 
 .ranking-table {
   background-color: rgba(38, 37, 37, 0.8);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Horizontale Verschiebung, vertikale Verschiebung, Weichheit, Farbe */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.6); /* Horizontale Verschiebung, vertikale Verschiebung, Weichheit, Farbe */
   padding: 1px;
   border: none;
   border-radius: 5px;
@@ -188,7 +188,7 @@ h2 {
   font-weight: bold;
   padding: 10px;
   color: #ffff;
-  border-bottom: 2px solid #ccc; /* Untere Trennlinie hinzufügen */
+  border-bottom: 2px solid #e26f69; /* Untere Trennlinie hinzufügen */
 }
 
 .ranking-column {
