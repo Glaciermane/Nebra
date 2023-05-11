@@ -185,7 +185,7 @@ h2 {
 .ranking-header {
   display: flex;
   border-radius: 10px;
-  background-color: rgba(29, 10, 10, 1); /* Transparentes Schwarz */
+  background-color: rgba(22, 10, 10, 1); /* Transparentes Schwarz */
   font-weight: bold;
   padding: 10px;
   color: #ffff;
