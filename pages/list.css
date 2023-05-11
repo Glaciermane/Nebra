@@ -347,6 +347,16 @@ h2 {
   background-size: contain;
 }
 
+.badge-basic {
+  content: "";
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/IMG_4662.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
 
 .badge-dev {
   content: "";
