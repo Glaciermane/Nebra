@@ -223,6 +223,7 @@ h2 {
 
 .ranking-row {
   display: flex;
+  font-size: 14px; /* Neue Schriftgröße festlegen */
   background-color: rgba(38, 37, 37, 0.8); /* Transparentes Schwarz */
   align-items: center; /* Elemente vertikal zentriert ausrichten */
   padding: 10px;
