@@ -218,23 +218,7 @@ h2 {
   border: none; /* Rand entfernen */
 }
 
-.column-cell-badge-pro {
-  flex: 1;
-  padding: 10px;
-  border: none; /* Rand entfernen */
-}
 
-.column-cell-badge-medium {
-  flex: 1;
-  padding: 10px;
-  border: none; /* Rand entfernen */
-}
-
-.column-cell-badge-rookie {
-  flex: 1;
-  padding: 10px;
-  border: none; /* Rand entfernen */
-}
 
 
 .column-cell-guild {
