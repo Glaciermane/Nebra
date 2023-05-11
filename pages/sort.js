@@ -1,30 +1,34 @@
-window.onload = function() {
-      function sortTable() {
-        var table = document.getElementById("tablesort");
-        var tbody = table.getElementsByTagName("tbody")[0];
-        var rows = Array.from(tbody.getElementsByTagName("tr"));
+// Finde alle Zeilen der Rangliste
+const rankingRows = document.querySelectorAll('.ranking-row');
 
-        var tierOrder = {
-          "S+ Tier": 0,
-          "S  Tier": 1,
-          "A  Tier": 2,
-          "B  Tier": 3,
-          "C  Tier": 4,
-          "D  Tier": 5,
-          "E  Tier": 6
-        };
+// Konvertiere die NodeList in ein Array, um Array-Funktionen verwenden zu können
+const rowsArray = Array.from(rankingRows);
 
-        rows.sort(function(a, b) {
-          var tierA = a.getElementsByClassName("column-cell-tier")[0].innerHTML;
-          var tierB = b.getElementsByClassName("column-cell-tier")[0].innerHTML;
+// Erstelle ein Objekt, um die Rangreihenfolge festzulegen
+const rankOrder = {
+  'S+': 1,
+  'S': 2,
+  'A': 3,
+  'B': 4,
+  'C': 5,
+  'D': 6,
+  'E': 7
+};
 
-          return tierOrder[tierA] - tierOrder[tierB];
-        });
+// Sortiere die Zeilen basierend auf dem Rang
+rowsArray.sort((a, b) => {
+  const rankA = a.querySelector('.column-cell-tier').textContent.trim();
+  const rankB = b.querySelector('.column-cell-tier').textContent.trim();
+  return rankOrder[rankA] - rankOrder[rankB];
+});
 
-        for (var i = 0; i < rows.length; i++) {
-          tbody.appendChild(rows[i]);
-        }
-      }
+// Entferne vorhandene Zeilen aus dem DOM
+rankingRows.forEach(row => {
+  row.parentNode.removeChild(row);
+});
 
-      sortTable();
-    };
+// Füge die sortierten Zeilen in der richtigen Reihenfolge wieder in den DOM ein
+const rankingContainer = document.querySelector('.ranking-container');
+rowsArray.forEach(row => {
+  rankingContainer.appendChild(row);
+});
