@@ -201,10 +201,23 @@ h2 {
 }
 
 .column-cell-name {
-  flex: 2;
-  padding: 10px;
-  border: none; /* Rand entfernen */
+  position: relative;
+  padding-left: 30px;
 }
+.column-cell-name::before {
+  content: "";
+  background-image: url("https://cdn.discordapp.com/attachments/1026710692088258650/1106166884149231636/IMG_4668.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+}
+
 
 .column-cell-guild {
   flex: 1;
