@@ -140,7 +140,7 @@ h2 {
   border-radius: 5px;
   cursor: pointer;
 }
-.search:hover {
+.search-bar button[type="search"]:hover {
   background-color: #211d1d;
   background-color: rgba(226, 111, 105, .7);
 }
