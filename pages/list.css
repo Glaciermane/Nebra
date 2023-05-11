@@ -295,10 +295,32 @@ h2 {
   background-size: contain;
 }
 
+.badge-pro {
+  width: 20px;
+  height: 20px;
+  background-image: url("https://cdn.discordapp.com/attachments/1026710692088258650/1106166882731577455/IMG_4665.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
 
+.badge-medium {
+  width: 20px;
+  height: 20px;
+  background-image: url("https://cdn.discordapp.com/attachments/1026710692088258650/1106166883096461364/IMG_4664.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
 
-
-
+.badge-rookie {
+  width: 20px;
+  height: 20px;
+  background-image: url("https://cdn.discordapp.com/attachments/1026710692088258650/1106166883411046441/IMG_4663.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
 
 /* Weitere CSS-Regeln können hier ergänzt werden, um das Formular anzupassen */
 
