@@ -290,9 +290,7 @@ h2 {
 .badge-expert {
   content: "";
   position: absolute;
-  top: 50%;
-  right: 5px;
-  transform: translateY(-50%);
+  transform: translateY(10px);
   width: 20px;
   height: 20px;
   background-image: url("https://cdn.discordapp.com/attachments/1026710692088258650/1106166882345693255/IMG_4666.png");
