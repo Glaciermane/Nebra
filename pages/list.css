@@ -172,6 +172,7 @@ h2 {
 
 .ranking-table {
   background-color: rgba(38, 37, 37, 0.8);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Horizontale Verschiebung, vertikale Verschiebung, Weichheit, Farbe */
   padding: 1px;
   border: none;
   border-radius: 5px;
@@ -227,7 +228,7 @@ h2 {
   padding: 10px;
   color: #ffff;
   
-  border-bottom: 1px solid #ccc; /* Untere Trennlinie hinzufügen */
+  border-bottom: 1px solid #e26f69; /* Untere Trennlinie hinzufügen */
 }
 
 /* CSS für die Header-Spalten */
