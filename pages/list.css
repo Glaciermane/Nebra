@@ -297,7 +297,7 @@ h2 {
 
  
   
-.badge-rank1::before {
+.badge-rank1 {
   content: "";
   position: relative;
   width: 20px;
