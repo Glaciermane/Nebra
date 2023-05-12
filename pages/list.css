@@ -348,7 +348,7 @@ h2 {
 .badge-ss {
   content: "";
   position: relative;
-  margin: auto;
+
   width: 40px;
   height: 40px;
   background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/S%2B.png");
@@ -361,7 +361,7 @@ h2 {
 .badge-s {
   content: "";
   position: relative;
-  margin: auto;
+
   width: 40px;
   height: 40px;
   background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/S.png");
@@ -373,7 +373,7 @@ h2 {
 .badge-a {
   content: "";
   position: relative;
-  margin: auto;
+
   width: 40px;
   height: 40px;
   background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/A.png");
@@ -385,7 +385,7 @@ h2 {
 .badge-b {
   content: "";
   position: relative;
-  margin: auto;
+
   width: 40px;
   height: 40px;
   background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/B.png");
@@ -397,7 +397,7 @@ h2 {
 .badge-c {
   content: "";
   position: relative;
-  margin: auto;
+
   width: 40px;
   height: 40px;
   background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/C.png");
@@ -409,7 +409,7 @@ h2 {
 .badge-d {
   content: "";
   position: relative;
-  margin: auto;
+
   width: 40px;
   height: 40px;
   background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/D.png");
@@ -421,7 +421,7 @@ h2 {
 .badge-crown {
   content: "";
   position: relative;
-  margin: auto;
+
   width: 40px;
   height: 40px;
   background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/crown.png");
@@ -433,7 +433,7 @@ h2 {
 .badge-3star {
   content: "";
   position: relative;
-  margin: auto;
+
   width: 40px;
   height: 40px;
   background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/3star.png");
@@ -445,7 +445,7 @@ h2 {
 .badge-heart {
   content: "";
   position: relative;
-  margin: auto;
+
   width: 40px;
   height: 40px;
   background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/heart.png");
@@ -457,7 +457,7 @@ h2 {
 .badge-knife {
   content: "";
   position: relative;
-  margin: auto;
+
   width: 40px;
   height: 40px;
   background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/knife.png");
@@ -469,7 +469,7 @@ h2 {
 .badge-lightning {
   content: "";
   position: relative;
-  margin: auto;
+
   width: 40px;
   height: 40px;
   background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/lightning.png");
@@ -481,7 +481,7 @@ h2 {
 .badge-moon {
   content: "";
   position: relative;
-  margin: auto;
+
   width: 40px;
   height: 40px;
   background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/moon.png");
@@ -493,7 +493,7 @@ h2 {
 .badge-mountain {
   content: "";
   position: relative;
-  margin: auto;
+
   width: 40px;
   height: 40px;
   background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/mountain.png");
@@ -505,7 +505,7 @@ h2 {
 .badge-skull {
   content: "";
   position: relative;
-  margin: auto;
+
   width: 40px;
   height: 40px;
   background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/skull.png");
@@ -517,7 +517,7 @@ h2 {
 .badge-swords {
   content: "";
   position: relative;
-  margin: auto;
+
   width: 40px;
   height: 40px;
   background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/swords.png");
@@ -529,7 +529,7 @@ h2 {
 .badge-viking {
   content: "";
   position: relative;
-  margin: auto;
+
   width: 40px;
   height: 40px;
   background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/viking.png");
