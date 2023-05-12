@@ -223,19 +223,19 @@ h2 {
 }
 
 .column-cell-guild {
-  flex: 1;
+  flex: 0.5;
   padding: 10px;
   border: none; /* Rand entfernen */
 }
 
 .column-cell-tier {
-  flex: 1;
+  flex: 0.5;
   padding: 10px;
   border: none; /* Rand entfernen */
 }
 
 .column-cell-compl {
-  flex: 1;
+  flex: 0.7;
   padding: 10px;
   border: none; /* Rand entfernen */
 }
@@ -263,15 +263,15 @@ h2 {
 }
 
 .column-guild {
-  flex: 1;
+  flex: 0.5;
 }
 
 .column-ranking {
-  flex: 1;
+  flex: 0.5;
 }
 
 .column-completions {
-  flex: 1;
+  flex: 0.7;
 }
 
 
