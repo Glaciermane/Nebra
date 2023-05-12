@@ -209,7 +209,9 @@ h2 {
 .column-cell-badge {
   display: flex;
   flex: 1;
-  padding: 10px;
+  padding-top: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
   border: none; /* Rand entfernen */
 }
 
@@ -302,8 +304,8 @@ h2 {
   content: "";
   position: relative;
   margin: auto;
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
   background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/Rank1.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -314,8 +316,8 @@ h2 {
   content: "";
   position: relative;
   margin: auto;
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
   background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/Rank2.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -326,8 +328,8 @@ h2 {
   content: "";
   position: relative;
   margin: auto;
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
   background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/Rank3.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -339,8 +341,8 @@ h2 {
   content: "";
   position: relative;
   margin: auto;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/S%2B.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -352,8 +354,8 @@ h2 {
   content: "";
   position: relative;
   margin: auto;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/S.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -364,8 +366,8 @@ h2 {
   content: "";
   position: relative;
   margin: auto;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/A.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -376,8 +378,8 @@ h2 {
   content: "";
   position: relative;
   margin: auto;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/B.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -388,8 +390,8 @@ h2 {
   content: "";
   position: relative;
   margin: auto;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/C.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -400,8 +402,8 @@ h2 {
   content: "";
   position: relative;
   margin: auto;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/D.png");
   background-repeat: no-repeat;
   background-position: center;
