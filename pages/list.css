@@ -339,7 +339,7 @@ h2 {
 
 
 
-.badge-grandmaster {
+.badge-s+ {
   content: "";
   position: relative;
   margin: auto;
@@ -352,7 +352,7 @@ h2 {
 }
 
 
-.badge-master {
+.badge-s {
   content: "";
   position: relative;
   margin: auto;
@@ -364,7 +364,7 @@ h2 {
   background-size: contain;
 }
  
-.badge-expert {
+.badge-a {
   content: "";
   position: relative;
   margin: auto;
@@ -376,7 +376,7 @@ h2 {
   background-size: contain;
 }
 
-.badge-mid {
+.badge-b {
   content: "";
   position: relative;
   margin: auto;
@@ -388,7 +388,7 @@ h2 {
   background-size: contain;
 }
   
-.badge-average {
+.badge-c {
   content: "";
   position: relative;
   margin: auto;
@@ -400,7 +400,7 @@ h2 {
   background-size: contain;
 }
 
-.badge-rookie {
+.badge-d {
   content: "";
   position: relative;
   margin: auto;
