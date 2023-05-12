@@ -300,10 +300,10 @@ h2 {
 
  
 .rank1 {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  content: "";
-  postion: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    margin: auto;
 }
 .badge-rank1 {
   content: "";
