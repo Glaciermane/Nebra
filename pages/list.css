@@ -303,7 +303,7 @@ h2 {
     padding-top: 10px;
     padding-bottom: 10px;
     position: relative;
-    margin: auto;
+    padding-left: 7px;
 }
 .badge-rank1 {
   content: "";
