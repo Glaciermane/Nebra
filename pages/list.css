@@ -300,6 +300,7 @@ h2 {
 .badge-rank1 {
   content: "";
   position: relative;
+  margin: auto;
   width: 35px;
   height: 35px;
   background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/Rank1.png");
@@ -311,6 +312,7 @@ h2 {
 .badge-rank2 {
   content: "";
   position: relative;
+  margin: auto;
   width: 35px;
   height: 35px;
   background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/Rank2.png");
@@ -322,6 +324,7 @@ h2 {
 .badge-rank3 {
   content: "";
   position: relative;
+  margin: auto;
   width: 35px;
   height: 35px;
   background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/Rank3.png");
@@ -338,6 +341,7 @@ h2 {
 .badge-grandmaster {
   content: "";
   position: relative;
+  margin: auto;
   width: 30px;
   height: 30px;
   background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/S%2B.png");
@@ -350,6 +354,7 @@ h2 {
 .badge-master {
   content: "";
   position: relative;
+  margin: auto;
   width: 30px;
   height: 30px;
   background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/S.png");
@@ -361,6 +366,7 @@ h2 {
 .badge-expert {
   content: "";
   position: relative;
+  margin: auto;
   width: 30px;
   height: 30px;
   background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/A.png");
@@ -372,6 +378,7 @@ h2 {
 .badge-mid {
   content: "";
   position: relative;
+  margin: auto;
   width: 30px;
   height: 30px;
   background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/B.png");
@@ -383,6 +390,7 @@ h2 {
 .badge-average {
   content: "";
   position: relative;
+  margin: auto;
   width: 30px;
   height: 30px;
   background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/C.png");
@@ -394,6 +402,7 @@ h2 {
 .badge-rookie {
   content: "";
   position: relative;
+  margin: auto;
   width: 30px;
   height: 30px;
   background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/D.png");
