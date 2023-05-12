@@ -208,7 +208,7 @@ h2 {
 
 .column-cell-badge {
   flex: 1;
-  diplay: flex;
+  display: flex;
   padding: 10px;
   border: none; /* Rand entfernen */
 }
