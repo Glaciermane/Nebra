@@ -308,7 +308,6 @@ h2 {
 .badge-rank1 {
   content: "";
   position: relative;
-  margin: auto;
   width: 40px;
   height: 40px;
   background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/Rank1.png");
@@ -320,7 +319,6 @@ h2 {
 .badge-rank2 {
   content: "";
   position: relative;
-  margin: auto;
   width: 40px;
   height: 40px;
   background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/Rank2.png");
@@ -332,7 +330,6 @@ h2 {
 .badge-rank3 {
   content: "";
   position: relative;
-  margin: auto;
   width: 40px;
   height: 40px;
   background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/Rank3.png");
