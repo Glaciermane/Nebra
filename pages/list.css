@@ -410,6 +410,114 @@ h2 {
   background-size: contain;
 }
 
+.badge-crown {
+  content: "";
+  position: relative;
+  margin: auto;
+  width: 40px;
+  height: 40px;
+  background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/crown.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.badge-3star {
+  content: "";
+  position: relative;
+  margin: auto;
+  width: 40px;
+  height: 40px;
+  background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/3star.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.badge-heart {
+  content: "";
+  position: relative;
+  margin: auto;
+  width: 40px;
+  height: 40px;
+  background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/heart.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.badge-knife {
+  content: "";
+  position: relative;
+  margin: auto;
+  width: 40px;
+  height: 40px;
+  background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/knife.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.badge-lightning {
+  content: "";
+  position: relative;
+  margin: auto;
+  width: 40px;
+  height: 40px;
+  background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/lightning.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.badge-moon {
+  content: "";
+  position: relative;
+  margin: auto;
+  width: 40px;
+  height: 40px;
+  background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/moon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.badge-mountain {
+  content: "";
+  position: relative;
+  margin: auto;
+  width: 40px;
+  height: 40px;
+  background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/mountain.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.badge-swords {
+  content: "";
+  position: relative;
+  margin: auto;
+  width: 40px;
+  height: 40px;
+  background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/swords.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.badge-viking {
+  content: "";
+  position: relative;
+  margin: auto;
+  width: 40px;
+  height: 40px;
+  background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/viking.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
 .badge-dev {
   content: "";
   position: relative;
