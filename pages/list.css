@@ -201,6 +201,12 @@ h2 {
 }
 
 .column-cell-name {
+  flex: 1;
+  padding: 10px;
+  border: none; /* Rand entfernen */
+}
+
+.column-cell-top3 {
   display: flex;
   flex: 1;
   padding: 10px;
