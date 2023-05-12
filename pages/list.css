@@ -338,8 +338,8 @@ h2 {
 .badge-grandmaster {
   content: "";
   position: relative;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/S%2B.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -350,8 +350,8 @@ h2 {
 .badge-master {
   content: "";
   position: relative;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/S.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -361,8 +361,8 @@ h2 {
 .badge-expert {
   content: "";
   position: relative;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/A.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -372,8 +372,8 @@ h2 {
 .badge-mid {
   content: "";
   position: relative;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/B.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -383,8 +383,8 @@ h2 {
 .badge-average {
   content: "";
   position: relative;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/C.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -394,8 +394,8 @@ h2 {
 .badge-rookie {
   content: "";
   position: relative;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   background-image: url("https://raw.githubusercontent.com/Glaciermane/Nebra/main/D.png");
   background-repeat: no-repeat;
   background-position: center;
