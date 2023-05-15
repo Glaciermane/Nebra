@@ -1,20 +1,20 @@
 function searchRankings() {
-  var input, filter, table, tr, tdName, tdTop3, i;
-  input = document.getElementById("searchInput");
-  filter = input.value.toUpperCase();
-  table = document.getElementById("rankingsTable");
-  tr = table.getElementsByTagName("tr");
+  // Eingabewert aus dem Suchfeld abrufen
+  var input = document.getElementById("searchInput").value.toLowerCase();
 
-  for (i = 0; i < tr.length; i++) {
-    tdName = tr[i].getElementsByTagName("td")[0];
-    tdTop3 = tr[i].getElementsByTagName("td")[2];
+  // Alle Zeilen der Tabelle abrufen
+  var rows = document.getElementsByClassName("ranking-row");
 
-    if (tdName || tdTop3) {
-      if (tdName.innerHTML.toUpperCase().indexOf(filter) > -1 || tdTop3.innerHTML.toUpperCase().indexOf(filter) > -1) {
-        tr[i].style.display = "";
-      } else {
-        tr[i].style.display = "none";
-      }
+  // Schleife über alle Zeilen
+  for (var i = 0; i < rows.length; i++) {
+    var nameCell = rows[i].getElementsByClassName("column-cell-name")[0];
+    var top3Cell = rows[i].getElementsByClassName("column-cell-top3")[0];
+
+    // Prüfen, ob der Name oder der Top 3-Wert dem Suchbegriff entsprechen
+    if (nameCell.textContent.toLowerCase().indexOf(input) > -1 || top3Cell.textContent.toLowerCase().indexOf(input) > -1) {
+      rows[i].style.display = ""; // Zeile anzeigen
+    } else {
+      rows[i].style.display = "none"; // Zeile ausblenden
     }
   }
 }
