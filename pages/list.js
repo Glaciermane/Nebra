@@ -1,19 +1,19 @@
 function searchRankings() {
-  var input = document.getElementById("search-input").value.toLowerCase();
-  var rows = document.getElementsByClassName("ranking-row");
+  var input, filter, table, tr, tdName, tdTop3, i;
+  input = document.getElementById("searchInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("rankingsTable");
+  tr = table.getElementsByTagName("tr");
 
-  for (var i = 0; i < rows.length; i++) {
-    var playerNameElement = rows[i].getElementsByClassName("column-cell-name")[0];
-    var top3Element = rows[i].getElementsByClassName("column-cell-top3")[0];
+  for (i = 0; i < tr.length; i++) {
+    tdName = tr[i].getElementsByTagName("td")[0];
+    tdTop3 = tr[i].getElementsByTagName("td")[2];
 
-    if (playerNameElement && top3Element) {
-      var playerName = playerNameElement.innerText.toLowerCase();
-      var top3Text = top3Element.innerText.toLowerCase();
-
-      if (playerName.includes(input) || top3Text.includes(input)) {
-        rows[i].style.display = ""; // Zeige die Zeile, wenn der Spielername oder Top3 übereinstimmt
+    if (tdName || tdTop3) {
+      if (tdName.innerHTML.toUpperCase().indexOf(filter) > -1 || tdTop3.innerHTML.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
       } else {
-        rows[i].style.display = "none"; // Verstecke die Zeile, wenn der Spielername oder Top3 nicht übereinstimmt
+        tr[i].style.display = "none";
       }
     }
   }
