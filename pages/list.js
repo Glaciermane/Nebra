@@ -1,9 +1,9 @@
 function searchRankings() {
-  var input = document.getElementById("search-input").value.toLowerCase();
+  var input = document.getElementById("searchInput").value.toLowerCase();
   var rows = document.getElementsByClassName("ranking-row");
 
   for (var i = 0; i < rows.length; i++) {
-    var playerNameElement = rows[i].getElementsByClassName("column-cell-name")[0];
+    var playerNameElement = rows[i].getElementsByClassName("column-cell-name column-cell-top3")[0];
     
     if (playerNameElement) {
       var playerName = playerNameElement.innerText.toLowerCase();
