@@ -1,34 +1,42 @@
-// Finde alle Zeilen der Rangliste
-const rankingRows = document.querySelectorAll('.ranking-row');
 
-// Konvertiere die NodeList in ein Array, um Array-Funktionen verwenden zu können
-const rowsArray = Array.from(rankingRows);
+    function sortTable(columnIndex) {
+      var table, rows, switching, i, x, y, shouldSwitch;
+      table = document.getElementById("rankingTable");
+      switching = true;
 
-// Erstelle ein Objekt, um die Rangreihenfolge festzulegen
-const rankOrder = {
-  'S+': 1,
-  'S': 2,
-  'A': 3,
-  'B': 4,
-  'C': 5,
-  'D': 6,
-  'E': 7
-};
+      while (switching) {
+        switching = false;
+        rows = table.rows;
 
-// Sortiere die Zeilen basierend auf dem Rang
-rowsArray.sort((a, b) => {
-  const rankA = a.querySelector('.column-cell-tier').textContent.trim();
-  const rankB = b.querySelector('.column-cell-tier').textContent.trim();
-  return rankOrder[rankA] - rankOrder[rankB];
-});
+        for (i = 1; i < (rows.length - 1); i++) {
+          shouldSwitch = false;
+          x = rows[i].getElementsByTagName("TD")[columnIndex];
+          y = rows[i + 1].getElementsByTagName("TD")[columnIndex];
 
-// Entferne vorhandene Zeilen aus dem DOM
-rankingRows.forEach(row => {
-  row.parentNode.removeChild(row);
-});
+          if (columnIndex === 2) { // Index 2 für Spalte "column-cell-tier"
+            var tierOrder = ['s+', 's', 'a', 'b', 'c', 'd', 'e'];
+            var xIndex = tierOrder.indexOf(x.innerHTML.toLowerCase());
+            var yIndex = tierOrder.indexOf(y.innerHTML.toLowerCase());
 
-// Füge die sortierten Zeilen in der richtigen Reihenfolge wieder in den DOM ein
-const rankingContainer = document.querySelector('.ranking-container');
-rowsArray.forEach(row => {
-  rankingContainer.appendChild(row);
-});
+            if (xIndex > yIndex) {
+              shouldSwitch = true;
+              break;
+            }
+          } else {
+            if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+              shouldSwitch = true;
+              break;
+            }
+          }
+        }
+
+        if (shouldSwitch) {
+          rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+          switching = true;
+        }
+      }
+    }
+
+    window.addEventListener('load', function() {
+      sortTable(2); // Sortiere nach Spalte "column-cell-tier" beim Laden der Seite
+    });
