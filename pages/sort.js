@@ -22,7 +22,7 @@ function sortTable(columnIndex) {
           break;
         }
       } else {
-        if (x.innerHTML.toLowerCase().localeCompare(y.innerHTML.toLowerCase()) > 0) {
+        if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
           shouldSwitch = true;
           break;
         }
