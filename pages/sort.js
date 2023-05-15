@@ -9,8 +9,8 @@ function sortTable(columnIndex) {
 
     for (i = 1; i < (rows.length - 1); i++) {
       shouldSwitch = false;
-      x = rows[i].getElementsByTagName("TD")[columnIndex];
-      y = rows[i + 1].getElementsByTagName("TD")[columnIndex];
+      x = rows[i].getElementsByClassName("column-cell-tier")[columnIndex];
+      y = rows[i + 1].getElementsByClassName("column-cell-tier")[columnIndex];
 
       if (columnIndex === 2) { // Index 2 für Spalte "column-cell-tier"
         var tierOrder = ['s+', 's', 'a', 'b', 'c', 'd', 'e'];
