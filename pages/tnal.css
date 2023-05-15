@@ -466,11 +466,31 @@ ul {
 
 
 
-.badgeinfo {
-    display: flex;
+.badgebox {
+    background-color: rgba(38, 37, 37, 0.8);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
     padding: 10px;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin: auto;
+    text-align: left;
+    overflow: auto;
 }
 
+
+.badge-flex {
+    display: flex;
+    font-size: 14px;
+    background-color: rgba(38, 37, 37, 0.8);
+    align-items: center;
+    padding: 6px;
+    box-shadow: 0 10px 7px rgba(0, 0, 0, 1);
+    border-radius: 7px;
+    color: #ffff;
+    border-bottom: 1px solid #e26f69;
+}
 
 .badgeinfo-form {
     font-size: 12px;
