@@ -1,6 +1,6 @@
 function searchRankings() {
   var input = document.getElementById("searchInput").value.toLowerCase();
-  var names = document.getElementsByClassName("column-cell-name");
+  var names = document.getElementsByClassName("column-cell-name column-cell-tier");
 
   for (var i = 0; i < names.length; i++) {
     var name = names[i].innerText.toLowerCase();
