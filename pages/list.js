@@ -1,15 +1,13 @@
-// list.js
-
 function searchRankings() {
   var input = document.getElementById("searchInput").value.toLowerCase();
-  var rows = document.getElementsByClassName("ranking-row");
+  var names = document.getElementsByClassName("column-cell-name");
 
-  for (var i = 0; i < rows.length; i++) {
-    var name = rows[i].getElementsByClassName("column-cell-name")[0];
+  for (var i = 0; i < names.length; i++) {
+    var name = names[i];
     if (name.innerText.toLowerCase().indexOf(input) > -1) {
-      rows[i].style.display = "";
+      name.parentElement.style.display = "";
     } else {
-      rows[i].style.display = "none";
+      name.parentElement.style.display = "none";
     }
   }
 }
