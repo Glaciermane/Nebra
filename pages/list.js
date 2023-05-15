@@ -1,18 +1,18 @@
 function searchRankings() {
-  var input = document.getElementById("searchInput").value.toLowerCase();
-  var rows = document.getElementsByClassName("ranking-row");
+  var input, filter, table, rows, i, nameColumn, playerName;
+  input = document.getElementById("searchInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("rankgr");
+  rows = table.getElementsByClassName("ranking-row");
 
-  for (var i = 0; i < rows.length; i++) {
-    var playerNameElement = rows[i].getElementsByClassName("column-cell-name")[0];
-    
-    if (playerNameElement) {
-      var playerName = playerNameElement.innerText.toLowerCase();
+  for (i = 0; i < rows.length; i++) {
+    nameColumn = rows[i].getElementsByClassName("column-name")[0];
+    playerName = nameColumn.textContent || nameColumn.innerText;
 
-      if (playerName.includes(input)) {
-        rows[i].style.display = ""; // Zeige die Zeile, wenn der Spielername übereinstimmt
-      } else {
-        rows[i].style.display = "none"; // Verstecke die Zeile, wenn der Spielername nicht übereinstimmt
-      }
+    if (playerName.toUpperCase().indexOf(filter) > -1) {
+      rows[i].style.display = "";
+    } else {
+      rows[i].style.display = "none";
     }
   }
 }
