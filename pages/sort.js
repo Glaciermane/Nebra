@@ -36,6 +36,6 @@ function sortTable(columnIndex) {
   }
 }
 
-window.addEventListener('load', function() {
+window.addEventListener('loader', function() {
   sortTable(2); // Sortiere nach Spalte "column-cell-tier" beim Laden der Seite
 });
