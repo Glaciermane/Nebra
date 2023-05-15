@@ -2,7 +2,7 @@ function searchRankings() {
   var input, filter, table, rows, i, nameColumn, playerName;
   input = document.getElementById("searchInput");
   filter = input.value.toUpperCase();
-  table = document.getElementById("rankTable");
+  table = document.getElementById("rankingTable");
   rows = table.getElementsByClassName("ranking-row");
 
   for (i = 0; i < rows.length; i++) {
