@@ -1,15 +1,12 @@
+// list.js
+
 function searchRankings() {
-  var input, filter, table, rows, i, nameColumn, playerName;
-  input = document.getElementById("searchInput");
-  filter = input.value.toUpperCase();
-  table = document.getElementById("rankingTable");
-  rows = table.getElementsByClassName("ranking-row");
+  var input = document.getElementById("searchInput").value.toLowerCase();
+  var rows = document.getElementsByClassName("ranking-row");
 
-  for (i = 0; i < rows.length; i++) {
-    nameColumn = rows[i].getElementsByClassName("column-name")[0];
-    playerName = nameColumn.textContent || nameColumn.innerText;
-
-    if (playerName.toUpperCase().indexOf(filter) > -1) {
+  for (var i = 0; i < rows.length; i++) {
+    var name = rows[i].getElementsByClassName("column-cell-name")[0];
+    if (name.innerText.toLowerCase().indexOf(input) > -1) {
       rows[i].style.display = "";
     } else {
       rows[i].style.display = "none";
