@@ -464,13 +464,20 @@ ul {
 }
 
 
+
+
+.badgeinfo {
+    display: flex;
+    padding: 10px;
+}
+
+
 .badgeinfo-form {
     font-size: 12px;
     padding-left: 20px;
     margin: auto;
+   
 }
-
-
 
 
 
