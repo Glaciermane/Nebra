@@ -3,7 +3,7 @@ function searchRankings() {
   var rows = document.getElementsByClassName("ranking-row");
 
   for (var i = 0; i < rows.length; i++) {
-    var playerNameElement = rows[i].getElementsByClassName("column-cell-name column-cell-top3")[0];
+    var playerNameElement = rows[i].getElementsByClassName("column-cell-name")[0];
     
     if (playerNameElement) {
       var playerName = playerNameElement.innerText.toLowerCase();
