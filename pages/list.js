@@ -6,7 +6,7 @@ function searchRankings() {
   rows = table.getElementsByClassName("ranking-row");
 
   for (i = 0; i < rows.length; i++) {
-    nameColumn = rows[i].getElementsByClassName("column-name")[0];
+    nameColumn = rows[i].getElementsByClassName("column-cell-name")[0];
     playerName = nameColumn.textContent || nameColumn.innerText;
 
     if (playerName.toUpperCase().indexOf(filter) > -1) {
