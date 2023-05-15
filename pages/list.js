@@ -3,12 +3,13 @@ function searchRankings() {
   var names = document.getElementsByClassName("column-cell-name");
 
   for (var i = 0; i < names.length; i++) {
-    var name = names[i];
-    console.log(name); // Füge diese Zeile hinzu
-    if (name.innerText.toLowerCase().indexOf(input) > -1) {
-      name.parentElement.style.display = "";
+    var name = names[i].innerText.toLowerCase();
+    var row = names[i].parentElement;
+
+    if (name.indexOf(input) > -1) {
+      row.style.display = "";
     } else {
-      name.parentElement.style.display = "none";
+      row.style.display = "none";
     }
   }
 }
