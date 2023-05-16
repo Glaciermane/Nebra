@@ -56,7 +56,25 @@
     <div class="divider" style="width:24%; margin:30px 0;"></div>  
  
 
- 
+<script>
+  function login(event) {
+    event.preventDefault(); // Verhindert das Standardverhalten des Formulars (Neuladen der Seite)
+    
+    // Hole die eingegebenen Werte
+    var superuser = document.getElementById('superuser').value;
+    var pass = document.getElementById('pass').value;
+    
+    // Führe die erforderlichen Überprüfungen durch
+    if (superuser === 'admin' && pass === 'password') {
+      // Erfolgreicher Login, tue hier, was immer du möchtest
+      console.log('Login erfolgreich');
+    } else {
+      // Ungültige Anmeldeinformationen, zeige eine Fehlermeldung an
+      var errorMessage = document.getElementById('error-message');
+      errorMessage.textContent = 'Ungültige Anmeldeinformationen';
+    }
+  }
+</script> 
 <form id="login-form">
     <label for="superuser">Superuser:</label>
     <input type="text" id="superuser" required>
@@ -64,11 +82,11 @@
     <label for="pass">Passcode:</label>
     <input type="text" id="pass" required>
     <br>
-    <button type="adminlogin">Login</button>
+    <button type="submit">Login</button>
   </form>
 <div id="error-message" class="error-message"></div>
   
-<script src="./superuser.js"></script>
+
    
     
 
