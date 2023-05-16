@@ -5,7 +5,7 @@ function login(event) {
   const password = document.getElementById('pass').value;
   const superpass = process.env.SUPER_PASS;
 
-  if (username === 'superuser' && password === 'pass') {
+  if (username === 'superuser' && password === superpass) {
     // Authentifizierung erfolgreich, weiterleiten zur geschützten Seite
     window.location.href = 'supervisor.html';
   } else {
