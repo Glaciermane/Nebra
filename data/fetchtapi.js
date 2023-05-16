@@ -1,23 +1,25 @@
-// Die gewünschte Benutzer- oder UUID-Variable
-const usernameOrUUID = 'example';
+// API-URL für die GET-Anfrage
+var url = 'https://api.wynncraft.com/v2/';
 
-// API-Request durchführen
-fetch(`https://api.wynncraft.com/v2/player/${usernameOrUUID}/stats`)
-  .then(response => response.json())
-  .then(data => {
-    // Daten verarbeiten und anzeigen
-    const dataContainer = document.getElementById('data-container');
-
-    // Beispielhafte Verarbeitung der Daten
-    const playerStats = data.data[0].stats;
-    const statKeys = Object.keys(playerStats);
-
-    statKeys.forEach(statKey => {
-      const listItem = document.createElement('p');
-      listItem.textContent = `${statKey}: ${playerStats[statKey]}`;
-      dataContainer.appendChild(listItem);
-    });
+// GET-Anfrage senden
+fetch(url)
+  .then(function(response) {
+    // Überprüfen, ob die GET-Anfrage erfolgreich war
+    if (response.ok) {
+      // Response-Daten in JSON umwandeln
+      return response.json();
+    } else {
+      throw new Error('Fehler bei der GET-Anfrage. Statuscode: ' + response.status);
+    }
   })
-  .catch(error => {
-    console.error('Fehler beim Abrufen der API-Daten:', error);
+  .then(function(data) {
+    // Antwortdaten verarbeiten
+    console.log(data); // Ausgabe der Antwortdaten in der Konsole
+    
+    // Weitere Verarbeitung der Daten
+    // ...
+  })
+  .catch(function(error) {
+    // Fehlerbehandlung
+    console.error(error);
   });
