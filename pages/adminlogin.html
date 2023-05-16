@@ -19,6 +19,12 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,600,700,800,900&display=swap" rel="stylesheet">
   
   <script src="./sort.js"></script>
+   <title>Pop-up Beispiel</title>
+  <script>
+    function showPopup() {
+      alert("Button wurde gedrückt!");
+    }
+  </script>
 </head>
 
 <body onload="loaderFunction()">
@@ -61,10 +67,11 @@
     
     <input type="submit" value="Anmelden">
   </form>
+  <h2>Pop-up Beispiel</h2>
+  <button onclick="showPopup()">Pop-up anzeigen</button>
   
   
-  
-  
+    <script src="./superuser.js"></script>
     <script src="../index.js"></script>
     <script src="./list.js"></script>
     <script src="./commands.js"></script>
