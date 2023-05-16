@@ -3,8 +3,6 @@ import superpass from './config.js';
 console.log('pass:', superpass);
 // Weitere Aktionen mit dem Passwort durchführen
 
-
-
 document.getElementById('login-form').addEventListener('submit', function(event) {
   event.preventDefault(); // Verhindert das Standard-Formularverhalten
 
