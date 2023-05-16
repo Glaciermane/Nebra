@@ -553,5 +553,8 @@ h2 {
 
 /* Weitere CSS-Regeln können hier ergänzt werden, um das Formular anzupassen */
 
-
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
 
