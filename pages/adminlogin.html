@@ -58,7 +58,10 @@
  
 
    <h2>refresh</h2>
-
+<button id="refresh-button">Refresh</button>
+  
+  <div id="response"></div>
+  
  <script>
     // Funktion, die beim Klicken des "Refresh"-Buttons aufgerufen wird
     $('#refresh-button').click(function() {
@@ -71,7 +74,7 @@
         // Hier können Sie die gewünschten Daten aus der Response auslesen und in andere HTML-Elemente einfügen
         // Beispiel: Den Spieler-Namen in ein bestimmtes HTML-Element mit der ID "player-name" einfügen
         var playerName = response.player.username;
-        $('#player-name').text(playerName);
+        $('#response').text('Spielername: ' + playerName);
         
         // Weitere Verarbeitung der Daten und Eintragung in andere HTML-Elemente
         
