@@ -1,5 +1,4 @@
 export function showPopup() {
-
   var credentials = prompt("Login as Superuser\n");
   var username = credentials.split('\n')[0];
   var password = credentials.split('\n')[1];
@@ -8,7 +7,7 @@ export function showPopup() {
 
   // Überprüfen Sie hier die Superuser-Daten und führen Sie entsprechende Aktionen durch
 
-  if (superuser === "superuser" && password === superpass) {
+  if (username === "superuser" && password === superpass) {
     alert("Superuser logged in!");
     // Superuser-Daten sind korrekt, führen Sie hier den gewünschten Code aus
     errorElement.textContent = ""; // Leeren Sie die Fehlermeldung
@@ -16,4 +15,4 @@ export function showPopup() {
     // Superuser-Daten sind nicht korrekt, zeigen Sie eine Fehlermeldung an
     alert("Wrong login data!");
   }
-});
+}
