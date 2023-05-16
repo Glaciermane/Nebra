@@ -1,3 +1,3 @@
-const password = process.env.MY_SECRET;
+const password = process.env.SUPER_PASS;
 
 export default superpass;
