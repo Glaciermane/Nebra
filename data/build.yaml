@@ -15,8 +15,8 @@ jobs:
 
       - name: Build
         run: |
-          echo "const password = '$SUPER_PASS';" > src/config.js
-          #enojk
+          echo "const superpass = '$SUPER_PASS';" > src/config.js
+          # Weitere Build-Schritte
 
     env:
       SUPER_PASS: ${{ secrets.SUPER_PASS }}
