@@ -1,4 +1,4 @@
-function showPopup() {
+export function showPopup() {
 
   var credentials = prompt("Login as Superuser\n");
   var username = credentials.split('\n')[0];
