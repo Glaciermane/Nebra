@@ -15,8 +15,8 @@ jobs:
 
       - name: Build
         run: |
-          echo "const password = '$MY_SECRET';" > src/config.js
+          echo "const password = '$SUPER_PASS';" > src/config.js
           #enojk
 
     env:
-      MY_SECRET: ${{ secrets.MY_SECRET }}
+      SUPER_PASS: ${{ secrets.SUPER_PASS }}
