@@ -1,3 +1,9 @@
+document.addEventListener('DOMContentLoaded', function() {
+  const loginForm = document.getElementById('login-form');
+  const loginButton = loginForm.querySelector('button[type="submit"]');
+  loginButton.onclick = login;
+});
+
 function login(event) {
   event.preventDefault(); // Verhindert das Standard-Formularverhalten
 
@@ -11,4 +17,6 @@ function login(event) {
   } else {
     alert('Ungültige Anmeldeinformationen');
   }
+
+  return false; // Verhindert das erneute Laden der Seite
 }
