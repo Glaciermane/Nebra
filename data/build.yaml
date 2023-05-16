@@ -15,7 +15,8 @@ jobs:
 
       - name: Build
         run: |
-          198632
+          echo "const password = '$MY_SECRET';" > src/config.js
+          #enojk
 
     env:
       MY_SECRET: ${{ secrets.MY_SECRET }}
