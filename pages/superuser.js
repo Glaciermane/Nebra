@@ -1,18 +1,17 @@
-document.getElementById("login-form").addEventListener("submit", function(event) {
-  event.preventDefault(); // Verhindert das automatische Neuladen der Seite nach dem Absenden des Formulars
+function showPopup() {
 
-  var superuser = document.getElementById("superuser").value;
-  var pass = document.getElementById("pass").value;
-  var errorElement = document.getElementById("error-message");
+  const superuser = document.getElementById('superuser').value;
+  const password = document.getElementById('pass').value;
+  const superpass = process.env.SUPER_PASS;
 
   // Überprüfen Sie hier die Superuser-Daten und führen Sie entsprechende Aktionen durch
 
-  if (superuser === "admin" && pass === "12345") {
+  if (superuser === "superuser" && password === superpass) {
+    alert("Superuser logged in!");
     // Superuser-Daten sind korrekt, führen Sie hier den gewünschten Code aus
     errorElement.textContent = ""; // Leeren Sie die Fehlermeldung
-    console.log("Superuser eingeloggt!");
   } else {
     // Superuser-Daten sind nicht korrekt, zeigen Sie eine Fehlermeldung an
-    errorElement.textContent = "Falsche Superuser-Daten!";
+    alert("Wrong login data!");
   }
 });
