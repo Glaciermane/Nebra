@@ -1,22 +1,14 @@
-document.addEventListener('DOMContentLoaded', function() {
-  const loginForm = document.getElementById('login-form');
-  const loginButton = loginForm.querySelector('button[type="submit"]');
-  loginButton.onclick = login;
-});
+function login() {
+  var superuser = document.getElementById("superuser").value;
+  var pass = document.getElementById("pass").value;
 
-function login(event) {
-  event.preventDefault(); // Verhindert das Standard-Formularverhalten
+  // Überprüfen Sie hier die Superuser-Daten und führen Sie entsprechende Aktionen durch
 
-  const username = document.getElementById('superuser').value;
-  const password = document.getElementById('pass').value;
-  const superpass = process.env.SUPER_PASS;
-
-  if (username === 'superuser' && password === superpass) {
-    // Authentifizierung erfolgreich, weiterleiten zur geschützten Seite
-    window.location.href = 'supervisor.html';
+  if (superuser === "admin" && pass === "12345") {
+    // Superuser-Daten sind korrekt, führen Sie hier den gewünschten Code aus
+    console.log("Superuser eingeloggt!");
   } else {
-    alert('Ungültige Anmeldeinformationen');
+    // Superuser-Daten sind nicht korrekt, zeigen Sie eine Fehlermeldung an
+    console.log("Falsche Superuser-Daten!");
   }
-
-  return false; // Verhindert das erneute Laden der Seite
 }
