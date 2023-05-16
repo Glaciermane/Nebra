@@ -21,7 +21,7 @@
   <script src="./sort.js"></script>
 
  <script src="./superuser.js"></script>
-
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
 <body onload="loaderFunction()">
@@ -57,40 +57,30 @@
 
  
 
-   <h2>Pop-up Beispiel</h2>
-  <button onclick="showPopup()">Pop-up anzeigen</button>
-  <script>
- function showPopup() {
-  var credentials = prompt("Login as Superuser\n");
-  var username = credentials.split('\n')[0];
-  var password = credentials.split('\n')[1];
-  var superpass = "SUPER_PASS"; // Hier solltest du den tatsächlichen Superuser-Passwortwert verwenden
-  const superpass = process.env.SUPER_PASS;
+   <h2>refresh</h2>
 
-  // Überprüfen Sie hier die Superuser-Daten und führen Sie entsprechende Aktionen durch
+ <script>
+    // Funktion, die beim Klicken des "Refresh"-Buttons aufgerufen wird
+    $('#refresh-button').click(function() {
+      // API-Anfrage durchführen
+      var url = 'https://api.wynncraft.com/v2/';
 
-  if (username === "superuser" && password === superpass) {
-    alert("Superuser logged in!");
-    // Superuser-Daten sind korrekt, führen Sie hier den gewünschten Code aus
-    errorElement.textContent = ""; // Leeren Sie die Fehlermeldung
-  } else {
-    // Superuser-Daten sind nicht korrekt, zeigen Sie eine Fehlermeldung an
-    alert("Wrong login data!");
-  }
-} 
+      $.get(url, function(data) {
+        // Daten verarbeiten
+        var response = data; // Die Antwortdaten
+        // Hier können Sie die gewünschten Daten aus der Response auslesen und in andere HTML-Elemente einfügen
+        // Beispiel: Den Spieler-Namen in ein bestimmtes HTML-Element mit der ID "player-name" einfügen
+        var playerName = response.player.username;
+        $('#player-name').text(playerName);
+        
+        // Weitere Verarbeitung der Daten und Eintragung in andere HTML-Elemente
+        
+      });
+    });
   </script>
-  <div id="popupContainer">
-    <div id="popupContent">
-      <label for="username">Benutzername:</label>
-      <input type="text" id="username" name="username" required><br><br>
-      <label for="password">Passwort:</label>
-      <input type="password" id="password" name="password" required><br><br>
-      <button onclick="handleLogin()">Anmelden</button>
-    </div>
-  </div>
-
+ 
   
-    <script src="./superuser.js"></script>
+    <script src="./data/fetchtapi.js"></script>
     <script src="../index.js"></script>
     <script src="./list.js"></script>
     <script src="./commands.js"></script>
