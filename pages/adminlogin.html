@@ -21,7 +21,7 @@
   <script src="./sort.js"></script>
    <title>Pop-up Beispiel</title>
 
- 
+ <script src="./superuser.js"></script>
   
 </head>
 
@@ -61,10 +61,20 @@
     
     <input type="submit" value="Anmelden">
   </form>
-  <h2>Pop-up Beispiel</h2>
+   <h2>Pop-up Beispiel</h2>
   <button onclick="showPopup()">Pop-up anzeigen</button>
-    <script type="module">
-    import { showPopup } from "./superuser.js";
+  
+  <div id="popupContainer">
+    <div id="popupContent">
+      <label for="username">Benutzername:</label>
+      <input type="text" id="username" name="username" required><br><br>
+      <label for="password">Passwort:</label>
+      <input type="password" id="password" name="password" required><br><br>
+      <button onclick="handleLogin()">Anmelden</button>
+    </div>
+  </div>
+     <script type="module">
+    import { showPopup, handleLogin } from "./superuser.js";
   </script>
   
     <script src="./superuser.js"></script>
